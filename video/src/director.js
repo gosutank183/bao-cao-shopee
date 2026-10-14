@@ -50,27 +50,57 @@ const clip = (s, max) => {
   return t.length > max ? t.slice(0, max - 1).trimEnd() + '…' : t;
 };
 
+const sleep = (s) => new Promise((r) => setTimeout(r, s * 1000));
+
+/**
+ * Gọi Gemini có dự phòng: thử lần lượt các model trong GEMINI_MODELS
+ * (mặc định giống script báo cáo), model không tồn tại (404) thì bỏ qua,
+ * quá tải (429/5xx) thì chờ rồi thử lại nhiều vòng.
+ */
 export async function writeScript(rawText) {
-  if (!config.geminiKey) throw new Error('Thiếu GEMINI_API_KEY trong .env');
+  if (!config.geminiKey) throw new Error('Thiếu GEMINI_API_KEY');
 
-  const response = await ai.models.generateContent({
-    model: config.geminiModel,
-    contents: `Nội dung thô:\n"""\n${rawText.slice(0, 6000)}\n"""`,
-    config: {
-      systemInstruction: SYSTEM,
-      responseMimeType: 'application/json',
-      responseSchema: schema,
-      temperature: 0.8,
-    },
-  });
+  const models = (process.env.GEMINI_MODELS || `gemini-flash-latest,${config.geminiModel}`)
+    .split(',').map((m) => m.trim()).filter(Boolean)
+    .filter((m, i, a) => a.indexOf(m) === i);
+  const skip = new Set();
+  const errors = [];
+  const waits = [0, 60, 180]; // giây chờ trước mỗi vòng
 
-  let data;
-  try {
-    data = JSON.parse(response.text);
-  } catch {
-    throw new Error('Gemini trả về dữ liệu không phải JSON hợp lệ, thử gửi lại.');
+  for (const [round, wait] of waits.entries()) {
+    if (wait) {
+      console.log(`  Gemini quá tải, chờ ${wait}s rồi thử vòng ${round + 1}...`);
+      await sleep(wait);
+    }
+    for (const model of models) {
+      if (skip.has(model)) continue;
+      try {
+        const response = await ai.models.generateContent({
+          model,
+          contents: `Nội dung thô:\n"""\n${rawText.slice(0, 6000)}\n"""`,
+          config: {
+            systemInstruction: SYSTEM,
+            responseMimeType: 'application/json',
+            responseSchema: schema,
+            temperature: 0.8,
+          },
+        });
+        const data = JSON.parse(String(response.text || '').replace(/^```(?:json)?|```$/g, '').trim());
+        console.log(`  Đã dùng model ${model}`);
+        return normalize(data);
+      } catch (err) {
+        const status = err?.status ?? err?.code;
+        const msg = `${model} vòng ${round + 1}: ${status ?? ''} ${String(err?.message || err).slice(0, 200)}`;
+        errors.push(msg);
+        console.error('  ' + msg);
+        if ([400, 401, 403].includes(status)) throw new Error(`Khóa Gemini không hợp lệ hoặc yêu cầu sai: ${msg}`);
+        if (status === 404) skip.add(model);
+        else await sleep(10);
+      }
+    }
+    if (skip.size === models.length) break;
   }
-  return normalize(data);
+  throw new Error(`Gemini lỗi sau nhiều lần thử. ${errors.slice(-3).join(' | ')}`);
 }
 
 /** Kiểm tra và làm sạch kịch bản để template không bao giờ vỡ. */

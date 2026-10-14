@@ -51,7 +51,10 @@ jobs:
         run: npm install --no-audit --no-fund
 
       - name: Kiem tra moi truong HyperFrames
-        run: npx hyperframes doctor || true
+        run: |
+          out=$(npx hyperframes doctor 2>&1 || true)
+          echo "$out"
+          echo "::notice title=hyperframes doctor::$(echo "$out" | tail -15 | sed ':a;N;$!ba;s/\n/%0A/g')"
 
       - name: Lam video va gui Telegram
         env:
@@ -64,11 +67,19 @@ jobs:
           RENDER_QUALITY: standard
           DATE_INPUT: ${{ inputs.date }}
         run: |
+          set -o pipefail
           if [ -n "$DATE_INPUT" ]; then
-            npm run daily -- --force --date "$DATE_INPUT"
+            npm run daily -- --force --date "$DATE_INPUT" 2>&1 | tee daily.log
           else
-            npm run daily -- --force
+            npm run daily -- --force 2>&1 | tee daily.log
           fi
+
+      # Đưa 25 dòng log cuối lên trang Summary để xem lỗi nhanh
+      - name: Hien loi len Summary
+        if: failure()
+        run: |
+          [ -f daily.log ] || exit 0
+          echo "::error title=Loi lam video::$(tail -25 daily.log | sed ':a;N;$!ba;s/%/%25/g;s/\r//g;s/\n/%0A/g')"
 
       - name: Luu file loi de kiem tra
         if: failure()
