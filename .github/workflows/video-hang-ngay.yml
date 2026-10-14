@@ -76,6 +76,13 @@ jobs:
             npm run daily -- --force 2>&1 | tee daily.log
           fi
 
+      # Tóm tắt (model Gemini, clip nền) lên trang Summary
+      - name: Tom tat len Summary
+        if: success()
+        run: |
+          [ -f daily.log ] || exit 0
+          echo "::notice title=Tom tat video::$(grep -E 'Đã dùng model|🎞️|⚠️|Xong' daily.log | sed ':a;N;$!ba;s/%/%25/g;s/\r//g;s/\n/%0A/g')"
+
       # Đưa 25 dòng log cuối lên trang Summary để xem lỗi nhanh
       - name: Hien loi len Summary
         if: failure()
