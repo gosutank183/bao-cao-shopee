@@ -1,0 +1,24 @@
+{
+  "name": "shopee-video-bot",
+  "version": "1.0.0",
+  "description": "Telegram -> Gemini -> Edge-TTS -> HyperFrames: tự động làm video bán hàng dọc 9:16",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "make": "node src/make.js",
+    "daily": "node src/daily.js",
+    "doctor": "node src/doctor.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "gsap": "^3.12.5",
+    "hyperframes": "latest",
+    "p-queue": "^8.0.1",
+    "telegraf": "^4.16.3"
+  }
+}
