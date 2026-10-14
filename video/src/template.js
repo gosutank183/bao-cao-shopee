@@ -1,8 +1,10 @@
 /**
  * Sinh index.html chuẩn HyperFrames cho video bán hàng dọc 1080x1920.
  *
- * Bố cục track:
- *   track 0  nền + ảnh sản phẩm (suốt video)
+ * Bố cục track (thứ tự trong HTML cũng là thứ tự lớp, dưới -> trên):
+ *   track 0  nền màu + ảnh sản phẩm (suốt video)
+ *   track 4  video người thật từ Pexels, mỗi cảnh một clip (nếu có)
+ *   track 5  lớp tối phía dưới để chữ dễ đọc trên video (nếu có)
  *   track 1  các cảnh chữ (nối tiếp nhau theo thời lượng giọng đọc)
  *   track 2  giọng đọc (mỗi cảnh một file mp3)
  *   track 3  thanh tiến trình + nhãn sản phẩm (suốt video)
@@ -40,10 +42,10 @@ export function escapeHtml(s) {
 const r3 = (n) => Math.round(n * 1000) / 1000;
 
 /** Cỡ chữ headline co theo độ dài để luôn vừa 2-3 dòng. */
-function headlineSize(text, hasImage) {
+function headlineSize(text, compact) {
   const len = [...text].length;
-  const max = hasImage ? 104 : 132;
-  const min = hasImage ? 64 : 76;
+  const max = compact ? 108 : 132;
+  const min = compact ? 64 : 76;
   return Math.round(Math.max(min, Math.min(max, max - (len - 10) * 2.6)));
 }
 
@@ -118,13 +120,23 @@ export function buildHtml(script, { imageFile = null, fps = 30 } = {}) {
   const theme = THEMES[script.theme] || THEMES.sunset;
   const total = r3(script.scenes.reduce((m, s) => Math.max(m, s.start + s.duration), 0));
   const hasImage = Boolean(imageFile);
+  // Ảnh sản phẩm được ưu tiên; không có ảnh thì dùng video người (nếu tìm được)
+  const hasVideo = !hasImage && script.scenes.some((s) => s.bgVideo);
+  const layout = hasImage ? 'with-image' : hasVideo ? 'with-video' : '';
+
+  const videoClips = !hasVideo ? '' : script.scenes
+    .filter((s) => s.bgVideo)
+    .map((s) => `
+    <video id="v${script.scenes.indexOf(s)}" class="clip bgv" src="${escapeHtml(s.bgVideo)}" muted playsinline
+      data-start="${r3(s.start)}" data-duration="${r3(s.duration)}" data-track-index="4"></video>`)
+    .join('');
 
   const sceneClips = script.scenes
     .map(
       (s, i) => `
-    <section id="s${i}" class="clip scene ${hasImage ? 'with-image' : ''} type-${s.type}"
+    <section id="s${i}" class="clip scene ${layout} type-${s.type}"
       data-start="${r3(s.start)}" data-duration="${r3(s.duration)}" data-track-index="1">
-      <div class="scene-inner">${sceneInner(s, i, hasImage)}
+      <div class="scene-inner">${sceneInner(s, i, Boolean(layout))}
       </div>
     </section>`
     )
@@ -140,6 +152,14 @@ export function buildHtml(script, { imageFile = null, fps = 30 } = {}) {
 
   const anims = script.scenes
     .map((s, i) => sceneAnim(s, i, s.start, s.duration))
+    .join('\n    ');
+
+  // Video nền: hiện mờ dần vào + zoom chậm cho có chuyển động
+  const videoAnims = !hasVideo ? '' : script.scenes
+    .map((s, i) => !s.bgVideo ? '' :
+      `tl.fromTo('#v${i}', { opacity: 0, scale: 1.12 }, { opacity: 1, scale: 1.12, duration: 0.25 }, ${r3(s.start)});
+    tl.to('#v${i}', { scale: 1, duration: ${r3(s.duration)}, ease: 'none' }, ${r3(s.start)});`)
+    .filter(Boolean)
     .join('\n    ');
 
   return `<!doctype html>
@@ -171,12 +191,21 @@ export function buildHtml(script, { imageFile = null, fps = 30 } = {}) {
     box-shadow: 0 40px 90px rgba(0,0,0,.35); }
   #product img { width: 100%; height: 100%; object-fit: contain; transform-origin: 50% 50%; }
 
+  /* ---- track 4/5: video người + lớp tối ---- */
+  .bgv { position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover; transform-origin: 50% 40%; }
+  #shade { position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 42%, rgba(0,0,0,.55) 62%, rgba(0,0,0,.85) 100%); }
+  #credit { position: absolute; right: 40px; bottom: 34px; font-size: 22px; font-weight: 500; color: rgba(255,255,255,.6); }
+
   /* ---- track 1: cảnh ---- */
   .scene { position: absolute; inset: 0; }
   .scene-inner { position: absolute; left: 70px; right: 70px; top: 0; bottom: 0;
     display: flex; flex-direction: column; justify-content: center; align-items: center;
     text-align: center; gap: 34px; }
   .scene.with-image .scene-inner { top: 1190px; bottom: 140px; justify-content: flex-start; gap: 22px; }
+  .scene.with-video .scene-inner { top: 1080px; bottom: 170px; justify-content: center; gap: 26px; }
+  .scene.with-video .headline { text-shadow: 0 6px 24px rgba(0,0,0,.7); }
+  .scene.with-video .sub { text-shadow: 0 3px 14px rgba(0,0,0,.8); }
   .headline { font-weight: 900; line-height: 1.08; letter-spacing: -1px; text-transform: uppercase;
     text-shadow: 0 8px 30px rgba(0,0,0,.25); text-wrap: balance; }
   .headline.hook span { background-image: linear-gradient(var(--accent), var(--accent));
@@ -191,7 +220,7 @@ export function buildHtml(script, { imageFile = null, fps = 30 } = {}) {
     box-shadow: 0 24px 60px rgba(0,0,0,.3); transform: rotate(-3deg); }
   .price-old { font-size: 56px; font-weight: 700; text-decoration: line-through; opacity: .6; }
   .price-now { font-size: 190px; font-weight: 900; line-height: 1; letter-spacing: -4px; }
-  .scene.with-image .price-now { font-size: 150px; }
+  .scene.with-image .price-now, .scene.with-video .price-now { font-size: 150px; }
   .cta-btn { font-size: 58px; font-weight: 900; color: var(--ink); background: var(--accent);
     padding: 34px 64px; border-radius: 999px; box-shadow: 0 20px 50px rgba(0,0,0,.3); }
   .cta-arrow { font-size: 70px; color: var(--accent); line-height: 1; }
@@ -215,12 +244,16 @@ export function buildHtml(script, { imageFile = null, fps = 30 } = {}) {
       <div id="blob2" class="blob"></div>
       ${hasImage ? `<div id="product"><img id="product-img" src="${escapeHtml(imageFile)}" alt=""></div>` : ''}
     </div>
+${videoClips}
+${hasVideo ? `
+    <div id="shade" class="clip" data-start="0" data-duration="${total}" data-track-index="5"></div>` : ''}
 ${sceneClips}
 ${audioClips}
 
     <div id="overlay" class="clip" data-start="0" data-duration="${total}" data-track-index="3">
       <div id="progress"><div id="progress-fill"></div></div>
       ${script.product_name ? `<div id="chip">${escapeHtml(script.product_name)}</div>` : ''}
+      ${hasVideo ? '<div id="credit">Video: Pexels</div>' : ''}
     </div>
   </div>
 
@@ -238,6 +271,8 @@ ${audioClips}
     tl.from('#product', { y: 120, opacity: 0, duration: 0.6, ease: 'back.out(1.4)' }, 0);
     tl.fromTo('#product-img', { scale: 1 }, { scale: 1.12, duration: ${total}, ease: 'none' }, 0);
   }
+
+  ${videoAnims}
 
   // Từng cảnh
   ${anims}

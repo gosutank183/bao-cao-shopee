@@ -8,6 +8,7 @@ import { synthesize } from './tts.js';
 import { buildHtml } from './template.js';
 import { fitForTelegram } from './media.js';
 import { run } from './proc.js';
+import { attachBroll, brollEnabled } from './broll.js';
 
 const require = createRequire(import.meta.url);
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -55,7 +56,14 @@ export async function makeVideo({ text, image, onStatus = () => {}, script, skip
       t += s.duration;
     }
 
-    // 3. Tài nguyên + HTML
+    // 3. Video người thật làm nền (chỉ khi không có ảnh sản phẩm và có PEXELS_API_KEY)
+    let credits = [];
+    if (!image && brollEnabled()) {
+      await onStatus('🎞️ Đang tìm clip người mẫu trên Pexels...');
+      credits = await attachBroll(script, workDir, (m) => console.log(m));
+    }
+
+    // 4. Tài nguyên + HTML
     fs.copyFileSync(gsapPath(), path.join(workDir, 'gsap.min.js'));
     let imageFile = null;
     if (image) {
@@ -68,7 +76,7 @@ export async function makeVideo({ text, image, onStatus = () => {}, script, skip
 
     if (skipRender) {
       success = true;
-      return { workDir, script, duration: t };
+      return { workDir, script, duration: t, credits };
     }
 
     // 4. Kiểm tra lỗi composition trước khi tốn thời gian render
@@ -92,7 +100,7 @@ export async function makeVideo({ text, image, onStatus = () => {}, script, skip
 
     const videoPath = await fitForTelegram(out, config.telegramMaxBytes);
     success = true;
-    return { workDir, script, duration: t, videoPath };
+    return { workDir, script, duration: t, videoPath, credits };
   } finally {
     // Khi lỗi luôn giữ thư mục để xem lại; khi thành công thì bot tự dọn sau khi gửi
     if (!success) console.error(`[pipeline] Lỗi, giữ thư mục để kiểm tra: ${workDir}`);

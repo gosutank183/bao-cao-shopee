@@ -13,6 +13,7 @@ const schema = {
     title: { type: Type.STRING, description: 'Tên video ngắn gọn, dưới 8 từ' },
     product_name: { type: Type.STRING, description: 'Tên sản phẩm ngắn, dưới 6 từ' },
     theme: { type: Type.STRING, enum: THEMES, description: 'Tông màu hợp với sản phẩm' },
+    broll_query: { type: Type.STRING, description: 'Từ khóa TIẾNG ANH 3-6 từ tìm video người mẫu mặc/dùng sản phẩm, vd "young woman wearing striped sweater"' },
     scenes: {
       type: Type.ARRAY,
       items: {
@@ -24,14 +25,15 @@ const schema = {
           subline: { type: Type.STRING, description: 'Chữ phụ, tối đa 12 từ, có thể rỗng' },
           price_now: { type: Type.STRING, description: 'Chỉ cho cảnh price, ví dụ "199K". Rỗng nếu không có' },
           price_old: { type: Type.STRING, description: 'Giá gốc nếu có, ví dụ "350K". Rỗng nếu không có' },
+          broll: { type: Type.STRING, description: 'Từ khóa TIẾNG ANH 3-6 từ tìm video nền có NGƯỜI cho cảnh này' },
         },
         required: ['type', 'voice_text', 'headline'],
-        propertyOrdering: ['type', 'voice_text', 'headline', 'subline', 'price_now', 'price_old'],
+        propertyOrdering: ['type', 'voice_text', 'headline', 'subline', 'price_now', 'price_old', 'broll'],
       },
     },
   },
-  required: ['title', 'product_name', 'theme', 'scenes'],
-  propertyOrdering: ['title', 'product_name', 'theme', 'scenes'],
+  required: ['title', 'product_name', 'theme', 'broll_query', 'scenes'],
+  propertyOrdering: ['title', 'product_name', 'theme', 'broll_query', 'scenes'],
 };
 
 const SYSTEM = `Bạn là đạo diễn video bán hàng ngắn dạng dọc (TikTok/Reels/Shopee Video) cho người làm Shopee affiliate ở Việt Nam.
@@ -43,7 +45,8 @@ Quy tắc:
 - Cảnh cuối là "cta": kêu gọi bấm link/giỏ hàng.
 - voice_text viết như người nói, tự nhiên, tiếng Việt có dấu, không emoji, không ký hiệu lạ, số viết sao cho đọc tự nhiên.
 - headline là cụm từ khóa đắt nhất của cảnh, rất ngắn.
-- Không hứa hẹn sai sự thật, không nói về công dụng chữa bệnh.`;
+- Không hứa hẹn sai sự thật, không nói về công dụng chữa bệnh.
+- broll và broll_query là từ khóa TIẾNG ANH để tìm video người thật trên Pexels: luôn có người (woman/man/couple/girl), mô tả trang phục và hành động cụ thể, ví dụ "woman in pink outfit walking street", "girl trying on jeans in mirror", "couple in matching hoodies laughing". Mỗi cảnh một cảnh quay khác nhau để video không lặp. Không dùng tên thương hiệu, không dùng tiếng Việt.`;
 
 const clip = (s, max) => {
   const t = String(s ?? '').replace(/\s+/g, ' ').trim();
@@ -115,6 +118,7 @@ export function normalize(data) {
       subline: clip(s.subline, 90),
       price_now: clip(s.price_now, 14),
       price_old: clip(s.price_old, 14),
+      broll: clip(s.broll, 80),
     }));
 
   if (scenes.length < 2) throw new Error('Kịch bản quá ngắn, hãy gửi nội dung chi tiết hơn.');
@@ -123,6 +127,7 @@ export function normalize(data) {
     title: clip(data.title || 'Video sản phẩm', 60),
     product_name: clip(data.product_name || data.title || '', 40),
     theme: THEMES.includes(data.theme) ? data.theme : 'sunset',
+    broll_query: clip(data.broll_query, 80),
     scenes,
   };
 }

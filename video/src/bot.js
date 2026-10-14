@@ -75,7 +75,8 @@ async function enqueueJob(ctx, text, getImage) {
       await ctx.replyWithVideo(
         { source: fs.createReadStream(result.videoPath) },
         {
-          caption: `✅ ${result.script.title}\n⏱️ ${result.duration.toFixed(1)}s`,
+          caption: `✅ ${result.script.title}\n⏱️ ${result.duration.toFixed(1)}s` +
+            (result.credits?.length ? `\n🎞️ Video nền: ${result.credits.join(', ')} (Pexels)` : ''),
           width: config.width,
           height: config.height,
           supports_streaming: true,
