@@ -1,14 +1,31 @@
 📊 Báo cáo thời trang hot – 14/10/2026
 
-1. Áo len kẻ sọc cổ điển: Đang là trào lưu phối đồ mùa thu nhờ nét tinh tế, dễ kết hợp chân váy hoặc quần dài. Hook: Chiếc áo len kẻ sọc đang phủ sóng khắp nơi mùa thu này, phối kiểu gì cũng sang chảnh!
-2. Quần jean nữ xu hướng 2026: Thiết kế thịnh hành đón đầu phong cách ứng dụng thường ngày của giới trẻ. Hook: Top dáng quần jean chân ái năm 2026 giúp tôn dáng mà bạn nhất định phải có trong tủ đồ!
-3. Đồ unisex phong cách tối giản: Bảng màu đa dạng cùng phom dáng rộng rãi được người trẻ đặc biệt ưa chuộng. Hook: Gợi ý cách phối đồ tối giản phong cách unisex, cả chàng và nàng diện đều cực cuốn!
-4. Set trang phục nữ tính tông hồng: Trào lưu diện cả set đồ hồng đi cà phê, dạo phố chụp ảnh trong thời tiết mát mẻ. Hook: Lên ngay set đồ hồng dịu dàng này đi dạo phố chiều thu là chụp ảnh góc nào cũng xinh!
-5. Đồ phối chuyển mùa hè sang thu: Kết hợp trang phục mùa hè với áo khoác mỏng để ứng phó các đợt se lạnh. Hook: Trời trở lạnh rồi, học ngay cách phối đồ hè thành outfit thu đông vừa ấm vừa thời thượng!
-6. Trang phục thanh lịch thường ngày: Xu hướng diện đồ cơ bản tinh tế, tôn nét đẹp tự nhiên không lo lỗi mốt. Hook: Bí quyết phối đồ thanh lịch chuẩn bài cho ngày lạnh, diện đi làm hay dạo phố đều đẹp!
+1. Áo len kẻ sọc cổ điển
+Lý do: Xu hướng thời trang mùa thu chuộng phong cách thanh lịch, dễ phối cùng quần dài hoặc chân váy.
+Hook video: Dung voi mua ao len tron neu ban chua thay mau ao len ke soc sieu ton dang nay!
+
+2. Quần jean nữ ống suông tôn dáng
+Lý do: Xu hướng thời trang denim trẻ trung liên tục giữ nhiệt trong các bảng xếp hạng phong cách năm 2026.
+Hook video: Bi kip chon quan jean hack dang cho nang chan ngan, xem ngay de khong ton tien oan!
+
+3. Đồ thời trang phong cách tối giản unisex
+Lý do: Xu hướng phối màu trung tính, thiết kế tối giản đang được giới trẻ chuộng mặc đôi và đi học, đi chơi.
+Hook video: Mac chung do voi nguoi yeu cuc ngau voi set do unisex toi gian dang gay sot nay!
+
+4. Set đồ dạo phố tông màu hồng ngọt ngào
+Lý do: Xu hướng trang phục màu sắc nổi bật chụp ảnh check-in cà phê mùa thu được phái đẹp ưa chuộng.
+Hook video: Outfit hen ho mua thu lam chang khong the roi mat, thu ngay tone hong ngot ngao nay nha!
+
+5. Áo khoác mỏng phối layer chuyển mùa
+Lý do: Không khí lạnh miền Bắc tăng cường kết hợp xu hướng tận dụng đồ hè sang thu giúp áo khoác nhẹ bán chạy.
+Hook video: Dung voi cat do mua he, them chiec ao khoac mong nay la co ngay set do thu cuc xinh!
+
+6. Thời trang thanh lịch thường ngày cho phụ nữ trung niên
+Lý do: Xu hướng diện đồ tối giản, tôn nét tự nhiên sang trọng cho độ tuổi ngoài 40 đang rất được chú ý.
+Hook video: Phu nu ngoai 40 mac gi mua thu nay de vua tre trung vua sang chanh tu nhien?
 
 Xu hướng và sự kiện sắp tới:
-Miền Bắc liên tục đón không khí lạnh thúc đẩy nhu cầu sắm đồ thu đông và trang phục giữ ấm.
-Các nền tảng số đang triển khai chương trình kích cầu mùa cao điểm cuối năm và nhiều thương hiệu lớn chuẩn bị mở bán bộ sưu tập mới từ ngày 16/10.
+Không khí lạnh miền Bắc tiếp tục tăng cường trong tháng 10, mở đường cho trào lưu sắm đồ giữ ấm và áo len mỏng.
+Các sàn thương mại điện tử đồng loạt triển khai gói hỗ trợ và chương trình kích cầu mùa sale cao điểm cuối năm 2026.
 
 Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-10-14.md
