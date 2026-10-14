@@ -78,7 +78,7 @@ TIN TỨC:
 
 Trả về JSON với đúng 2 trường:
 "bao_cao": báo cáo Markdown tiếng Việt gồm: tiêu đề "# Báo cáo thời trang hot – {date}"; Top 5–10 sản phẩm/kiểu dáng thời trang đáng làm video, mỗi món gồm tên/kiểu, vì sao đang hot (dẫn nguồn bằng link Markdown lấy từ danh sách), mức giá phổ biến nếu tin có nêu, 1 gợi ý hook video ngắn; mục xu hướng/từ khóa đang lên; mục sự kiện sale/mùa vụ sắp tới; cuối cùng mục "## Nguồn:" liệt kê dạng [Tiêu đề](URL) các tin đã dùng.
-"telegram": VĂN BẢN THUẦN (không Markdown, không dùng ký tự * _ ` [ ]), tối đa 3.300 ký tự. Dòng đầu: "📊 Báo cáo thời trang hot – {date}". Sau đó Top sản phẩm đánh số 1., 2., ... mỗi món 2–3 dòng (tên + lý do ngắn + hook video), rồi 2–3 dòng xu hướng/sự kiện sắp tới. KHÔNG thêm dòng link ở cuối."""
+"telegram": VĂN BẢN THUẦN (không Markdown, không dùng ký tự * _ ` [ ]), tối đa 3.300 ký tự. BẮT BUỘC viết tiếng Việt CÓ ĐẦY ĐỦ DẤU ở mọi dòng, kể cả dòng hook video (không viết kiểu không dấu như "Dung voi mua"). Dòng đầu: "📊 Báo cáo thời trang hot – {date}". Sau đó Top sản phẩm đánh số 1., 2., ... mỗi món 2–3 dòng (tên + lý do ngắn + hook video), rồi 2–3 dòng xu hướng/sự kiện sắp tới. KHÔNG thêm dòng link ở cuối."""
 
 
 def bao_loi(msg):
