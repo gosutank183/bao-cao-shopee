@@ -1,0 +1,82 @@
+name: Video ban hang hang ngay
+
+on:
+  workflow_run:
+    workflows: ["Bao cao Gemini hang ngay"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Số sản phẩm làm video"
+        default: "1"
+      date:
+        description: "Ngày báo cáo (YYYY-MM-DD), để trống = hôm nay"
+        default: ""
+
+concurrency:
+  group: video-hang-ngay
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  video:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: video
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Cai ffmpeg, font tieng Viet, edge-tts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-core > /dev/null
+          pip install -q edge-tts
+
+      - name: Cai thu vien Node
+        run: npm install --no-audit --no-fund
+
+      - name: Kiem tra moi truong HyperFrames
+        run: npx hyperframes doctor || true
+
+      - name: Lam video va gui Telegram
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          REPORT_REPO: ${{ github.repository }}
+          REPORT_LOCAL_DIR: ../bao-cao
+          DAILY_COUNT: ${{ inputs.count || '1' }}
+          RENDER_QUALITY: standard
+          DATE_INPUT: ${{ inputs.date }}
+        run: |
+          if [ -n "$DATE_INPUT" ]; then
+            npm run daily -- --force --date "$DATE_INPUT"
+          else
+            npm run daily -- --force
+          fi
+
+      - name: Luu file loi de kiem tra
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-loi
+          path: |
+            video/work/**/script.json
+            video/work/**/index.html
+          retention-days: 3
+          if-no-files-found: ignore
