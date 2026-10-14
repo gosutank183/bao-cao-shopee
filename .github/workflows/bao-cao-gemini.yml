@@ -1,0 +1,34 @@
+name: Bao cao Gemini hang ngay
+on:
+  schedule:
+    - cron: "22 21 * * *"   # 4:22 sáng giờ Việt Nam
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bao-cao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tao bao cao
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/bao_cao.py
+      - name: Luu len GitHub
+        run: |
+          git config user.name "bao-cao-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bao-cao telegram.txt
+          git commit -m "Báo cáo $(TZ=Asia/Ho_Chi_Minh date +%Y-%m-%d)" || echo "Khong co thay doi"
+          git pull --rebase origin main
+          git push origin main
+      - name: Gui Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/bao_cao.py gui
