@@ -56,6 +56,35 @@ const clip = (s, max) => {
 const sleep = (s) => new Promise((r) => setTimeout(r, s * 1000));
 
 /**
+ * Danh sách model sẽ thử: ưu tiên GEMINI_MODELS (nếu có), sau đó tự lấy các
+ * model Flash đang thực sự có từ API (mới nhất trước), Flash-Lite xếp cuối làm dự phòng.
+ */
+async function listModels() {
+  const preferred = (process.env.GEMINI_MODELS || 'gemini-flash-latest')
+    .split(',').map((m) => m.trim()).filter(Boolean);
+  let available = [];
+  try {
+    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', {
+      headers: { 'x-goog-api-key': config.geminiKey },
+    });
+    if (res.ok) {
+      available = ((await res.json()).models || [])
+        .filter((m) => (m.supportedGenerationMethods || []).includes('generateContent'))
+        .map((m) => m.name.replace(/^models\//, ''))
+        .filter((n) => /^gemini-(?:[\d.]+-)?flash(?:-lite)?(?:-latest)?$/.test(n));
+    }
+  } catch { /* không lấy được danh sách thì dùng danh sách mặc định */ }
+
+  const version = (n) => parseFloat((n.match(/gemini-([\d.]+)/) || [])[1] || '99');
+  const flash = available.filter((n) => !n.includes('lite')).sort((a, b) => version(b) - version(a));
+  const lite = available.filter((n) => n.includes('lite')).sort((a, b) => version(b) - version(a));
+  const fallback = ['gemini-3.8-flash', 'gemini-flash-lite-latest', config.geminiModel];
+
+  const list = [...preferred, ...flash, ...lite, ...(available.length ? [] : fallback)];
+  return list.filter((m, i) => m && list.indexOf(m) === i).slice(0, 6);
+}
+
+/**
  * Gọi Gemini có dự phòng: thử lần lượt các model trong GEMINI_MODELS
  * (mặc định giống script báo cáo), model không tồn tại (404) thì bỏ qua,
  * quá tải (429/5xx) thì chờ rồi thử lại nhiều vòng.
@@ -63,9 +92,8 @@ const sleep = (s) => new Promise((r) => setTimeout(r, s * 1000));
 export async function writeScript(rawText) {
   if (!config.geminiKey) throw new Error('Thiếu GEMINI_API_KEY');
 
-  const models = (process.env.GEMINI_MODELS || `gemini-flash-latest,${config.geminiModel}`)
-    .split(',').map((m) => m.trim()).filter(Boolean)
-    .filter((m, i, a) => a.indexOf(m) === i);
+  const models = await listModels();
+  console.log(`  Model sẽ thử: ${models.join(', ')}`);
   const skip = new Set();
   const errors = [];
   const waits = [0, 60, 180]; // giây chờ trước mỗi vòng
