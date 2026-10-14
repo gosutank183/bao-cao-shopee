@@ -8,7 +8,7 @@ jobs:
   send:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Gui telegram.txt
         env:
           TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

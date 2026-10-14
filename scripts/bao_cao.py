@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 REPO_URL = "https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao"
 MODELS = [m.strip() for m in os.environ.get(
-    "GEMINI_MODELS", "gemini-3.8-flash,gemini-3.6-flash,gemini-2.5-flash").split(",") if m.strip()]
+    "GEMINI_MODELS", "gemini-flash-latest,gemini-2.5-flash").split(",") if m.strip()]
 
 # Các từ khóa tìm tin (Google News, 7 ngày gần nhất, tiếng Việt)
 QUERIES = [
@@ -81,30 +81,80 @@ Trả về JSON với đúng 2 trường:
 "telegram": VĂN BẢN THUẦN (không Markdown, không dùng ký tự * _ ` [ ]), tối đa 3.300 ký tự. Dòng đầu: "📊 Báo cáo thời trang hot – {date}". Sau đó Top sản phẩm đánh số 1., 2., ... mỗi món 2–3 dòng (tên + lý do ngắn + hook video), rồi 2–3 dòng xu hướng/sự kiện sắp tới. KHÔNG thêm dòng link ở cuối."""
 
 
+def bao_loi(msg):
+    """In lỗi ra log và tạo annotation để thấy ngay trên trang Summary."""
+    msg = str(msg).replace("\n", " ")[:900]
+    print(msg, file=sys.stderr)
+    print(f"::error title=Gemini::{msg}")
+
+
+def danh_sach_model(key):
+    """Lấy các model Flash đang thực sự có, ưu tiên danh sách trong MODELS."""
+    try:
+        raw = http("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                   headers={"x-goog-api-key": key}, timeout=30)
+        co = [m["name"].split("/", 1)[1] for m in json.loads(raw).get("models", [])
+              if "generateContent" in m.get("supportedGenerationMethods", [])]
+    except Exception as e:
+        detail = e.read().decode()[:300] if hasattr(e, "read") else ""
+        bao_loi(f"Không lấy được danh sách model: {e} {detail}")
+        return MODELS
+    chon = [m for m in MODELS if m in co]
+    them = sorted((m for m in co if re.fullmatch(r"gemini-[\d.]+-flash(-latest)?", m) and m not in chon),
+                  reverse=True)
+    ket_qua = chon + them
+    print("Model sẽ thử:", ket_qua)
+    return ket_qua or MODELS
+
+
 def goi_gemini(prompt):
-    key = os.environ["GEMINI_API_KEY"]
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not key:
+        bao_loi("Thiếu secret GEMINI_API_KEY")
+        raise SystemExit(1)
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6},
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": {
+                "type": "OBJECT",
+                "properties": {"bao_cao": {"type": "STRING"}, "telegram": {"type": "STRING"}},
+                "required": ["bao_cao", "telegram"],
+            },
+            "temperature": 0.6,
+            "maxOutputTokens": 16384,
+        },
     }).encode()
-    last = None
-    for model in MODELS:
-        for attempt in range(3):
+    loi = []
+    for model in danh_sach_model(key):
+        for attempt in range(2):
             try:
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
                 raw = http(url, body, {"Content-Type": "application/json", "x-goog-api-key": key}, timeout=180)
                 data = json.loads(raw)
-                text = "".join(p.get("text", "") for p in data["candidates"][0]["content"]["parts"])
+                cands = data.get("candidates") or []
+                if not cands:
+                    raise ValueError(f"không có kết quả, promptFeedback={data.get('promptFeedback')}")
+                parts = (cands[0].get("content") or {}).get("parts") or []
+                text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
+                if not text:
+                    raise ValueError(f"kết quả rỗng, finishReason={cands[0].get('finishReason')}")
                 text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
                 out = json.loads(text)
+                if not out.get("bao_cao") or not out.get("telegram"):
+                    raise ValueError("JSON thiếu trường bao_cao/telegram")
                 print("Đã dùng model:", model)
                 return out
             except Exception as e:
-                last = e
+                code = getattr(e, "code", None)
                 detail = e.read().decode()[:300] if hasattr(e, "read") else ""
-                print(f"Lỗi {model} lần {attempt + 1}: {e} {detail}", file=sys.stderr)
+                loi.append(f"{model} lần {attempt + 1}: {e} {detail}".strip())
+                print(loi[-1], file=sys.stderr)
+                if code in (400, 401, 403, 404):  # sai key/model: thử lại vô ích
+                    break
                 time.sleep(15)
-    raise SystemExit(f"Gemini lỗi: {last}")
+    bao_loi("Gemini lỗi hết các model. " + " | ".join(loi[-4:]))
+    raise SystemExit(1)
 
 
 def lam_sach_telegram(t):
