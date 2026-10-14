@@ -253,7 +253,7 @@ ${audioClips}
     <div id="overlay" class="clip" data-start="0" data-duration="${total}" data-track-index="3">
       <div id="progress"><div id="progress-fill"></div></div>
       ${script.product_name ? `<div id="chip">${escapeHtml(script.product_name)}</div>` : ''}
-      ${hasVideo ? '<div id="credit">Video: Pexels</div>' : ''}
+      ${hasVideo ? `<div id="credit">Video: ${escapeHtml(script.brollSource || 'Pexels')}</div>` : ''}
     </div>
   </div>
 

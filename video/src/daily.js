@@ -91,7 +91,7 @@ async function main() {
       const res = await makeVideo({ text, onStatus: (m) => console.log('  ' + m) });
       await tg.sendVideo(CHAT_ID, { source: fs.createReadStream(res.videoPath) }, {
         caption: `🎬 ${date} · #${i + 1} ${p.name}\n⏱️ ${res.duration.toFixed(1)}s` +
-          (res.credits?.length ? `\n🎞️ Video nền: ${res.credits.join(', ')} (Pexels)` : ''),
+          (res.credits?.length ? `\n🎞️ Video nền: ${res.credits.join(', ')} (${res.script.brollSource})` : ''),
         width: config.width,
         height: config.height,
         supports_streaming: true,
