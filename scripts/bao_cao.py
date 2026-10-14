@@ -111,7 +111,7 @@ def goi_gemini(prompt):
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not key:
         bao_loi("Thiếu secret GEMINI_API_KEY")
-        raise SystemExit(1)
+        raise RuntimeError("Thiếu secret GEMINI_API_KEY")
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -126,35 +126,48 @@ def goi_gemini(prompt):
         },
     }).encode()
     loi = []
-    for model in danh_sach_model(key):
-        for attempt in range(2):
-            try:
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-                raw = http(url, body, {"Content-Type": "application/json", "x-goog-api-key": key}, timeout=180)
-                data = json.loads(raw)
-                cands = data.get("candidates") or []
-                if not cands:
-                    raise ValueError(f"không có kết quả, promptFeedback={data.get('promptFeedback')}")
-                parts = (cands[0].get("content") or {}).get("parts") or []
-                text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
-                if not text:
-                    raise ValueError(f"kết quả rỗng, finishReason={cands[0].get('finishReason')}")
-                text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
-                out = json.loads(text)
-                if not out.get("bao_cao") or not out.get("telegram"):
-                    raise ValueError("JSON thiếu trường bao_cao/telegram")
-                print("Đã dùng model:", model)
-                return out
-            except Exception as e:
-                code = getattr(e, "code", None)
-                detail = e.read().decode()[:300] if hasattr(e, "read") else ""
-                loi.append(f"{model} lần {attempt + 1}: {e} {detail}".strip())
-                print(loi[-1], file=sys.stderr)
-                if code in (400, 401, 403, 404):  # sai key/model: thử lại vô ích
-                    break
-                time.sleep(15)
-    bao_loi("Gemini lỗi hết các model. " + " | ".join(loi[-4:]))
-    raise SystemExit(1)
+    models = danh_sach_model(key)
+    bo_qua = set()  # model sai tên/không dùng được: không thử lại
+    cho = [0, 60, 180, 300]  # giây chờ trước mỗi vòng (tổng ~9 phút chờ)
+    for vong, giay in enumerate(cho, 1):
+        if giay:
+            print(f"Gemini đang quá tải, chờ {giay} giây rồi thử vòng {vong}...")
+            time.sleep(giay)
+        for model in models:
+            if model in bo_qua:
+                continue
+            for attempt in range(2):
+                try:
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+                    raw = http(url, body, {"Content-Type": "application/json", "x-goog-api-key": key}, timeout=180)
+                    data = json.loads(raw)
+                    cands = data.get("candidates") or []
+                    if not cands:
+                        raise ValueError(f"không có kết quả, promptFeedback={data.get('promptFeedback')}")
+                    parts = (cands[0].get("content") or {}).get("parts") or []
+                    text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
+                    if not text:
+                        raise ValueError(f"kết quả rỗng, finishReason={cands[0].get('finishReason')}")
+                    text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
+                    out = json.loads(text)
+                    if not out.get("bao_cao") or not out.get("telegram"):
+                        raise ValueError("JSON thiếu trường bao_cao/telegram")
+                    print("Đã dùng model:", model, "ở vòng", vong)
+                    return out
+                except Exception as e:
+                    code = getattr(e, "code", None)
+                    detail = e.read().decode()[:200] if hasattr(e, "read") else ""
+                    loi.append(f"{model} vòng {vong} lần {attempt + 1}: {e} {detail}".strip())
+                    print(loi[-1], file=sys.stderr)
+                    if code in (400, 401, 403):  # sai key: thử tiếp vô ích
+                        bao_loi("Khóa Gemini không hợp lệ. " + loi[-1])
+                        raise RuntimeError("Khóa Gemini không hợp lệ")
+                    if code == 404:  # model không tồn tại
+                        bo_qua.add(model)
+                        break
+                    time.sleep(20)
+    bao_loi("Gemini lỗi hết các model sau nhiều vòng thử. " + " | ".join(loi[-3:]))
+    raise RuntimeError("Gemini quá tải hoặc lỗi")
 
 
 def lam_sach_telegram(t):
@@ -178,7 +191,15 @@ def main():
     if len(tin) < 3:
         gui_telegram(f"⚠️ Báo cáo {DATE_VN}: không lấy được tin tức hôm nay, chưa tạo báo cáo.")
         raise SystemExit("Quá ít tin")
-    out = goi_gemini(PROMPT.format(date=DATE_VN, news=json.dumps(tin, ensure_ascii=False)))
+    try:
+        out = goi_gemini(PROMPT.format(date=DATE_VN, news=json.dumps(tin, ensure_ascii=False)))
+    except RuntimeError as e:
+        try:
+            gui_telegram(f"⚠️ Báo cáo {DATE_VN}: Gemini lỗi ({e}), hôm nay chưa tạo được báo cáo. "
+                         "Bạn có thể vào tab Actions trên GitHub bấm Run workflow để chạy lại.")
+        except Exception as e2:
+            print("Không gửi được cảnh báo Telegram:", e2, file=sys.stderr)
+        raise SystemExit(1)
     bao_cao = out["bao_cao"].strip() + "\n\n_Báo cáo tạo tự động bằng Gemini từ tin tức Google News._\n"
     telegram = lam_sach_telegram(out["telegram"])
     os.makedirs("bao-cao", exist_ok=True)
