@@ -1,31 +1,26 @@
-📊 Báo cáo thời trang hot – 25/10/2026
+📊 Báo cáo thời trang hot – 26/10/2026
 
-1. Áo khoác da lộn nữ
-Xu hướng nổi bật nhất mùa lạnh năm nay, mang phong cách sang trọng và rất dễ phối đồ.
-Gợi ý hook: Nếu chỉ được sắm một chiếc áo khoác sang chảnh mùa này thì da lộn chắc chắn là chân ái!
+1. Áo khoác da lộn
+Xu hướng nổi bật của mùa lạnh, mang vẻ ngoài cổ điển và tạo phong cách sang chảnh cho người mặc.
+Hook video: Đừng vội mua áo khoác mùa đông nếu bạn chưa thử chiếc áo da lộn đang chiếm trọn xu hướng năm nay!
 
 2. Áo khoác giao mùa mỏng nhẹ
-Thời tiết miền Bắc liên tục đón không khí lạnh nhẹ xen kẽ nắng, nhu cầu áo khoác tiện lợi tăng cao.
-Gợi ý hook: Sáng nắng trưa ấm tối lạnh buốt thì mặc áo khoác nào vừa xinh vừa không bị ngột ngạt?
+Miền Bắc và miền Trung chuyển lạnh nhẹ, đẩy mạnh nhu cầu tìm mua các mẫu áo khoác thanh lịch, tiện dụng.
+Hook video: Gió mùa vừa tràn về, đây là ba mẫu áo khoác giao mùa vừa nhẹ vừa ấm bạn nên có ngay trong giỏ hàng!
 
-3. Áo thu đông phom rộng mặc chung cho nam và nữ
-Kiểu dáng cơ bản dễ mặc, không kén dáng người, thích hợp làm đồ đôi hoặc mặc hàng ngày.
-Gợi ý hook: Chiếc áo thu đông thần thánh mà cả bạn lẫn người yêu đều có thể diện chung cực đẹp!
+3. Áo thu đông kiểu dáng unisex
+Thiết kế phi giới tính đang thu hút sự chú ý lớn từ các bạn trẻ, dễ phối đồ đôi hoặc chia sẻ tủ đồ.
+Hook video: Chiếc áo thu đông mua một được hai, rủ ngay người yêu hay bạn thân diện chung đón gió lạnh!
 
-4. Quần jean nữ phom suông tôn dáng
-Món đồ quen thuộc luôn nằm trong danh mục thịnh hành của giới trẻ nhờ khả năng phối đa dạng.
-Gợi ý hook: Bí quyết che khuyết điểm chân cong và hack dáng cực đỉnh với chiếc quần jean này!
+4. Phụ kiện thời trang thu đông
+Các món phụ kiện ấm áp đang chiếm sóng mạng xã hội, giúp hoàn thiện diện mạo ấn tượng mùa cuối năm.
+Hook video: Chỉ cần thêm phụ kiện nhỏ xinh này, bộ đồ đơn giản của bạn lập tức thăng hạng phong cách chuẩn tạp chí!
 
-5. Phụ kiện thời trang mùa lạnh
-Các món khăn, mũ và túi xách đang được chú ý mạnh để tạo điểm nhấn nổi bật cho trang phục mùa đông.
-Gợi ý hook: Lên đồ đơn giản bỗng nâng tầm phong cách tức thì chỉ nhờ một món phụ kiện nhỏ này!
-
-6. Thời trang phong cách đồ cũ vintage
-Xu hướng tiêu dùng tiết kiệm và bền vững khiến thời trang vintage ngày càng được ưa chuộng.
-Gợi ý hook: Không cần chi nhiều tiền mà vẫn sở hữu diện mạo độc lạ với phong cách cổ điển này!
+5. Váy và đồ dự tiệc cưới mùa mới
+Cao điểm mùa cưới cuối năm 2026 ưu tiên dấu ấn cá tính, tạo cơ hội cho các video phối đồ sang trọng.
+Hook video: Đi ăn cưới hoặc chuẩn bị ngày trọng đại diện đồ gì để vừa sang chảnh lại đậm chất riêng?
 
 Xu hướng và sự kiện sắp tới:
-Không khí lạnh tiếp tục tăng cường tại miền Bắc, tạo cơ hội đẩy mạnh các nội dung áo khoác nhẹ và đồ giữ ấm.
-Các sàn thương mại điện tử đã bắt đầu bước vào giai đoạn chuẩn bị cho đại tiệc siêu sale ngày mười một tháng mười một, nên sớm làm video gắn kèm hướng dẫn lấy mã giảm giá để tối ưu hoa hồng chuyển đổi.
+Đợt không khí lạnh tiếp tục tăng cường thúc đẩy sức mua thời trang giữ ấm. Cuộc đua khuyến mãi đại tiệc siêu sale 11.11 đang bắt đầu sớm, kênh video ngắn và các mã giảm giá trên sàn là hướng đi trọng tâm để tăng chuyển đổi.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-10-25.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-10-26.md
