@@ -1,26 +1,27 @@
-📊 Báo cáo thời trang hot – 31/10/2026
+📊 Báo cáo thời trang hot – 01/11/2026
 
-1. Áo khoác da lộn
-Lý do: Xu hướng phủ sóng mùa Thu Đông 2026, kiểu dáng sang trọng và giữ ấm tốt.
-Hook video: Mẫu áo khoác vừa mặc lên đã thấy sang đỉnh cao mà chị em nhất định phải có mùa thu đông này!
+1. Áo len dệt kim phong cách Hàn Quốc
+Xu hướng dệt kim phủ sóng mùa lạnh khi miền Bắc chuẩn bị đón đợt giảm nhiệt liên tiếp.
+Hook video: Không khí lạnh đầu mùa sắp tràn về, đừng vội mua áo len nếu bạn chưa biết 3 cách phối chuẩn gái Hàn này!
 
-2. Áo len dệt kim
-Lý do: Xu hướng dệt kim xuất hiện mạnh trên các sàn diễn, thời trang giữ ấm nhẹ nhàng.
-Hook video: Thử phối 3 outfit với chiếc áo len dệt kim cân mọi thời tiết lạnh sắp tới nhé!
+2. Áo khoác dáng dài thanh lịch
+Kiểu dáng ấm áp, giữ phom tốt nhiều năm và rất kịp thời cho mùa đông năm nay.
+Hook video: Đón gió mùa vừa ấm vừa sang, đây là mẫu áo khoác dáng dài mặc cả chục năm vẫn không lo lỗi mốt!
 
-3. Phong cách Hyunbaek Core
-Lý do: Trào lưu ăn mặc phong cách tiểu thư sang chảnh với mức giá hợp lý đang rất hot.
-Hook video: Bí quyết biến hình chuẩn tiểu thư tài phiệt chỉ với outfit bình dân dưới 500k!
+3. Set đồ phong cách Hyunbaek Core
+Trào lưu mặc đẹp kiểu tiểu thư đài các đang nở rộ mà không cần sắm hàng hiệu đắt tiền.
+Hook video: Bí kíp biến hình thành tiểu thư nhà giàu mà không tốn tiền triệu mua đồ hiệu xa xỉ!
 
-4. Áo khoác dáng dài
-Lý do: Phom dáng ấm áp, thanh lịch, dễ phối đồ và bền dáng qua nhiều năm.
-Hook video: 8 dáng áo khoác dài vừa ấm vừa sang giúp bạn dùng cả chục năm không lo lỗi thời!
+4. Áo khoác tối giản theo gợi ý của KOL
+Các mẫu áo khoác cơ bản đang viral trên mạng xã hội, người mua ưu tiên hàng chất lượng và chính hãng.
+Hook video: Chiếc áo khoác tối giản đang cực hot trên mạng xã hội liệu mặc lên dáng có đẹp như quảng cáo?
 
-5. Trang phục thể thao năng động
-Lý do: Thời trang gắn liền phong cách sống khỏe đang thu hút lượng lớn giới trẻ.
-Hook video: Điểm danh set đồ thể thao vừa năng động vừa tôn dáng cho các nàng mê vận động!
+5. Set trang phục thể thao năng động
+Thời trang thể thao tôn dáng kết hợp lối sống khỏe khoắn đang tạo sức hút mạnh mẽ cho giới trẻ.
+Hook video: Muốn vừa thoải mái vận động vừa khoe eo thon, xem ngay set đồ thể thao chuẩn chỉnh này!
 
-Trends & Mùa vụ:
-Thị trường sàn điện tử đang ghi nhận xu hướng mua sắm chuyển sang sản phẩm chính hãng, giá trị cao. Thời tiết miền Bắc chuyển lạnh cùng lễ hội Halloween là cơ hội vàng để bùng nổ doanh số đồ thu đông và trang phục cá tính.
+Xu hướng và sự kiện sắp tới:
+Miền Bắc dự báo đón liên tiếp hai đợt gió lạnh đầu tháng 11, mở ra giai đoạn vàng để đẩy mạnh video đồ ấm.
+Người tiêu dùng sàn thương mại điện tử đang chuyển dịch từ hàng giá rẻ sang hàng chính hãng giá trị cao trước thềm siêu sale 11/11.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-10-31.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-01.md
