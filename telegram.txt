@@ -1,27 +1,26 @@
-📊 Báo cáo thời trang hot – 01/11/2026
+📊 Báo cáo thời trang hot – 02/11/2026
 
-1. Áo len dệt kim phong cách Hàn Quốc
-Xu hướng dệt kim phủ sóng mùa lạnh khi miền Bắc chuẩn bị đón đợt giảm nhiệt liên tiếp.
-Hook video: Không khí lạnh đầu mùa sắp tràn về, đừng vội mua áo len nếu bạn chưa biết 3 cách phối chuẩn gái Hàn này!
+1. Áo khoác dáng dài Thu Đông
+Lý do: Miền Bắc đón liên tiếp 2 đợt không khí lạnh, phom áo măng tô vừa ấm vừa sang đang là tiêu điểm thời trang.
+Hook video: Đợt rét đậm đầu tiên tràn về rồi, đừng vội mua măng tô nếu chưa nắm 3 bí kíp chọn phom giấu dáng cực đỉnh này!
 
-2. Áo khoác dáng dài thanh lịch
-Kiểu dáng ấm áp, giữ phom tốt nhiều năm và rất kịp thời cho mùa đông năm nay.
-Hook video: Đón gió mùa vừa ấm vừa sang, đây là mẫu áo khoác dáng dài mặc cả chục năm vẫn không lo lỗi mốt!
+2. Áo len dệt kim dáng Hàn Quốc
+Lý do: Xu hướng dệt kim phủ sóng mạnh mẽ trên sàn diễn, dễ dàng ứng dụng nhiều công thức mặc đẹp khi trời trở lạnh.
+Hook video: Cùng một chiếc áo len dệt kim nhưng phối 4 cách này trông sang hẳn như diễn viên Hàn Quốc luôn nhé!
 
-3. Set đồ phong cách Hyunbaek Core
-Trào lưu mặc đẹp kiểu tiểu thư đài các đang nở rộ mà không cần sắm hàng hiệu đắt tiền.
-Hook video: Bí kíp biến hình thành tiểu thư nhà giàu mà không tốn tiền triệu mua đồ hiệu xa xỉ!
+3. Áo khoác Thu Đông chính hãng
+Lý do: Các gợi ý đồ ấm từ KOL đang lan truyền mạnh, người mua có xu hướng chọn hàng thương hiệu uy tín thay vì ham rẻ.
+Hook video: Lướt thấy chiếc áo khoác này đang cực hot trên mạng, để mình thẩm thử xem chất vải có xứng đáng tiền triệu không nha!
 
-4. Áo khoác tối giản theo gợi ý của KOL
-Các mẫu áo khoác cơ bản đang viral trên mạng xã hội, người mua ưu tiên hàng chất lượng và chính hãng.
-Hook video: Chiếc áo khoác tối giản đang cực hot trên mạng xã hội liệu mặc lên dáng có đẹp như quảng cáo?
+4. Set đồ phong cách Hyunbaek Core
+Lý do: Giới trẻ rộ trào lưu phối đồ kiểu tiểu thư sang trọng, tinh tế mà không cần sắm hàng hiệu xa xỉ.
+Hook video: Muốn diện đồ sang chảnh tựa tiểu thư tài phiệt mà ví tiền vẫn an toàn thì lưu ngay set đồ cực khéo này lại!
 
-5. Set trang phục thể thao năng động
-Thời trang thể thao tôn dáng kết hợp lối sống khỏe khoắn đang tạo sức hút mạnh mẽ cho giới trẻ.
-Hook video: Muốn vừa thoải mái vận động vừa khoe eo thon, xem ngay set đồ thể thao chuẩn chỉnh này!
+5. Váy áo tiệc tùng check-in ngắn hạn
+Lý do: Trào lưu sắm váy áo phục vụ chụp ảnh một lần rồi đổi phong cách đang thu hút bạn trẻ dịp lễ hội cuối năm.
+Hook video: Đi tiệc đúng một lần mà ngại mua đầm đắt tiền thì đây là chiếc đầm chụp hình lên đồ lung linh nhất Shopee!
 
-Xu hướng và sự kiện sắp tới:
-Miền Bắc dự báo đón liên tiếp hai đợt gió lạnh đầu tháng 11, mở ra giai đoạn vàng để đẩy mạnh video đồ ấm.
-Người tiêu dùng sàn thương mại điện tử đang chuyển dịch từ hàng giá rẻ sang hàng chính hãng giá trị cao trước thềm siêu sale 11/11.
+Xu hướng nổi bật: Sàn thương mại điện tử đang bứt phá với các đơn hàng giá trị cao từ tiền triệu, người tiêu dùng ngày càng ưu tiên hàng chính hãng uy tín thay vì đồ giá rẻ kém bền.
+Mùa vụ sắp tới: Tận dụng thời điểm không khí lạnh về đầu tháng 11 và đợt siêu sale ngày đôi để đẩy mạnh các video tiếp thị đồ đông gian hàng chính hãng.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-01.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-02.md
