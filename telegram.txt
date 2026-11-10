@@ -1,30 +1,30 @@
-📊 Báo cáo thời trang hot – 09/11/2026
+📊 Báo cáo thời trang hot – 10/11/2026
 
-1. Quần áo in hình độc lạ (họa tiết thịt lợn)
-Đang thu hút thảo luận mạnh mẽ nhờ bắt sóng thời sự và tính hài hước, tạo tính lan tỏa tự nhiên trên mạng xã hội.
-Hook: Mặc chiếc áo này ra đường thì bảo đảm ai cũng phải ngoái nhìn vì độ chịu chơi!
+Danh sách gợi ý theo xu hướng thời trang và yếu tố thời tiết mới nhất:
 
-2. Áo khoác gile lông vũ không tay
-Xu hướng đồ ấm thanh lịch đón đầu các đợt không khí lạnh, phom dáng nhẹ nhàng và phù hợp nhiều lứa tuổi.
-Hook: Trời trở lạnh mà sợ mặc đồ cồng kềnh thì đây chính là vị cứu tinh của bạn!
+1. Áo khoác gile lông vũ
+Mẫu áo gile không tay nhẹ nhàng giữ ấm tốt, dễ phối đồ đa phong cách đang là mốt nổi bật thu đông.
+Hook: Gió lạnh về rồi, biến hóa ngay 3 outfit cực đỉnh chỉ với một chiếc gile lông vũ!
 
-3. Áo sơ mi kiểu Hàn Quốc
-Mẫu sơ mi thu thanh lịch, tôn dáng cho phái đẹp khi đi làm hoặc đi chơi, rất dễ phối cùng nhiều trang phục khác.
-Hook: Đi làm vừa xinh vừa sang với kiểu áo sơ mi đang cực kỳ hot trend này nhé!
+2. Trang phục kẻ caro phối màu mới
+Họa tiết ca rô cổ điển được biến tấu mảng màu sắc tươi trẻ đầy cá tính.
+Hook: Đừng phối caro theo cách cũ nữa, thử ngay công thức màu mới cực cháy này!
 
-4. Áo khoác dáng dài tông tím
-Thiết kế sang trọng giúp trang phục mùa đông bừng sáng, được nhiều người tìm kiếm theo phong cách thời thượng.
-Hook: Đừng chỉ diện mãi màu đen, tông màu này sẽ giúp outfit mùa lạnh của bạn bừng sáng!
+3. Áo khoác tone màu tím
+Tông màu tím giúp tạo điểm nhấn sang trọng và nổi bật cho các set đồ đông.
+Hook: Chiếc áo khoác tím thần thánh giúp bạn nâng tầm gu thời trang mùa đông tức thì!
 
-5. Đồ thời trang gam màu be, kem và nâu ấm
-Bộ ba gam màu dẫn đầu xu hướng trang phục thu đông năm nay, mang lại diện mạo trang nhã và dễ phối lớp.
-Hook: Muốn mặc đẹp chuẩn phong cách thu đông thì nhất định phải sở hữu ba gam màu này!
+4. Thời trang thu đông tối giản và công sở
+Giới trẻ hướng tới sự gọn gàng cho tủ đồ kết hợp phong cách công sở trẻ trung thanh lịch.
+Hook: Tối giản tủ đồ thu đông với 5 item vừa thanh lịch vừa cân mọi hoàn cảnh!
 
-6. Trang phục phong cách phối nhiều lớp (layering)
-Cách mix đồ đón đầu thời tiết rét buốt, giữ ấm tối đa mà vẫn giữ được sự chỉn chu và sành điệu.
-Hook: Bí quyết phối đồ nhiều lớp vừa ấm áp vừa thon gọn mà không hề bị nặng nề!
+5. Áo khoác ấm và áo phao dày
+Miền Bắc đón liên tiếp không khí lạnh mạnh hạ xuống 9 đến 13 độ C làm nhu cầu đồ ấm tăng đột biến.
+Hook: Nhiệt độ hạ xuống 9 độ C, đây chính là chiếc áo cứu tinh mùa đông cho bạn!
 
-Xu hướng nổi bật: Thời tiết miền Bắc chuyển rét đậm với các đợt không khí lạnh liên tiếp, nhu cầu trang phục giữ nhiệt tăng cao. Bảng màu trung tính ấm áp và thời trang bản địa cách tân đang chiếm ưu thế.
-Sự kiện mua sắm: Đợt siêu sale 11.11 trên Shopee đang bước vào cao điểm truyền thông cùng các dịp kích cầu cuối năm như Black Friday và 12.12.
+Xu hướng và Sự kiện sắp tới:
+- Siêu sale 11.11 trên Shopee bùng nổ bão voucher và lắc siêu xu, cơ hội lớn chốt đơn affiliate.
+- Đợt rét đậm miền Bắc kích cầu mạnh mẽ dòng sản phẩm giữ ấm thu đông.
+- Khách hàng ngày càng ưu tiên mua sản phẩm chính hãng và khẳng định dấu ấn cá nhân.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-09.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-10.md
