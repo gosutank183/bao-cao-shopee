@@ -1,30 +1,30 @@
-📊 Báo cáo thời trang hot – 10/11/2026
-
-Danh sách gợi ý theo xu hướng thời trang và yếu tố thời tiết mới nhất:
+📊 Báo cáo thời trang hot – 11/11/2026
 
 1. Áo khoác gile lông vũ
-Mẫu áo gile không tay nhẹ nhàng giữ ấm tốt, dễ phối đồ đa phong cách đang là mốt nổi bật thu đông.
-Hook: Gió lạnh về rồi, biến hóa ngay 3 outfit cực đỉnh chỉ với một chiếc gile lông vũ!
+Lý do: Miền Bắc đón không khí lạnh hạ sâu xuống 9 đến 13 độ C, thiết kế không tay vừa giữ ấm tốt vừa trẻ trung thanh lịch.
+Hook video: Trời trở rét buốt dưới 15 độ, mặc gì vừa ấm vừa không bị cồng kềnh như gấu bông?
 
-2. Trang phục kẻ caro phối màu mới
-Họa tiết ca rô cổ điển được biến tấu mảng màu sắc tươi trẻ đầy cá tính.
-Hook: Đừng phối caro theo cách cũ nữa, thử ngay công thức màu mới cực cháy này!
+2. Áo khoác dạ dáng dài phom rộng
+Lý do: Trào lưu thời trang thu đông chuộng phong cách tối giản thanh lịch, nâng tầm cả bộ đồ chỉ với một chiếc áo khoác ngoài.
+Hook video: Đừng phối đồ rườm rà nữa, mùa lạnh này chỉ cần khoác chiếc áo dạ này là khí chất tăng gấp đôi.
 
-3. Áo khoác tone màu tím
-Tông màu tím giúp tạo điểm nhấn sang trọng và nổi bật cho các set đồ đông.
-Hook: Chiếc áo khoác tím thần thánh giúp bạn nâng tầm gu thời trang mùa đông tức thì!
+3. Đồ kẻ ca rô biến tấu màu sắc
+Lý do: Họa tiết ca rô quay trở lại dẫn đầu phong cách giới trẻ nhờ bảng màu tươi mới dễ mặc.
+Hook video: Họa tiết kẻ ca rô tưởng cũ kỹ mà biết chọn màu này thì mặc lên trông cực kỳ trẻ trung.
 
-4. Thời trang thu đông tối giản và công sở
-Giới trẻ hướng tới sự gọn gàng cho tủ đồ kết hợp phong cách công sở trẻ trung thanh lịch.
-Hook: Tối giản tủ đồ thu đông với 5 item vừa thanh lịch vừa cân mọi hoàn cảnh!
+4. Quần jean nữ ống suông cạp cao
+Lý do: Kiểu dáng giữ vững vị thế xu hướng hàng đầu năm 2026, dễ phối đồ cùng áo len và áo khoác.
+Hook video: Ba cách biến hóa dáng chân thon dài với chiếc quần jean đang dẫn đầu xu hướng năm nay.
 
-5. Áo khoác ấm và áo phao dày
-Miền Bắc đón liên tiếp không khí lạnh mạnh hạ xuống 9 đến 13 độ C làm nhu cầu đồ ấm tăng đột biến.
-Hook: Nhiệt độ hạ xuống 9 độ C, đây chính là chiếc áo cứu tinh mùa đông cho bạn!
+5. Váy đầm ôm body tôn dáng
+Lý do: Đồ ôm sát khoe đường cong luôn là nội dung hút chục triệu lượt xem và kích thích tương tác cao.
+Hook video: Chiếc đầm ôm vừa vặn giúp tôn dáng cực đỉnh mà không lo lộ khuyết điểm cho hội chị em.
 
-Xu hướng và Sự kiện sắp tới:
-- Siêu sale 11.11 trên Shopee bùng nổ bão voucher và lắc siêu xu, cơ hội lớn chốt đơn affiliate.
-- Đợt rét đậm miền Bắc kích cầu mạnh mẽ dòng sản phẩm giữ ấm thu đông.
-- Khách hàng ngày càng ưu tiên mua sản phẩm chính hãng và khẳng định dấu ấn cá nhân.
+6. Áo thun áo nỉ họa tiết vui nhộn
+Lý do: Trào lưu thời trang công sở thư giãn giải tỏa căng thẳng đang được giới trẻ hưởng ứng mạnh mẽ.
+Hook video: Chiếc áo sinh ra dành riêng cho những ngày đi làm mà tâm trí chỉ muốn nghỉ ngơi.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-10.md
+Xu hướng và sự kiện sắp tới:
+Hôm nay là chính hội Siêu sale 11/11 của Shopee với hàng loạt mã giảm giá và chiến dịch quảng bá bùng nổ. Người mua đang tập trung săn đón hàng thời trang giữ ấm thu đông chính hãng trên sàn. Sau đợt này cần lập tức chuẩn bị nội dung đón mùa mua sắm Black Friday cuối tháng 11 và đợt Siêu sale 12/12.
+
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-11.md
