@@ -1,30 +1,21 @@
-📊 Báo cáo thời trang hot – 11/11/2026
+📊 Báo cáo thời trang hot – 12/11/2026
 
-1. Áo khoác gile lông vũ
-Lý do: Miền Bắc đón không khí lạnh hạ sâu xuống 9 đến 13 độ C, thiết kế không tay vừa giữ ấm tốt vừa trẻ trung thanh lịch.
-Hook video: Trời trở rét buốt dưới 15 độ, mặc gì vừa ấm vừa không bị cồng kềnh như gấu bông?
+1. Áo khoác gile lông vũ: Trang phục giữ ấm nổi bật mùa thu đông, tạo nét thanh lịch cho mọi lứa tuổi.
+Hook video: Trời lạnh rồi, phối áo khoác gile lông vũ thế nào để vừa sang vừa không bị đứng tuổi?
 
-2. Áo khoác dạ dáng dài phom rộng
-Lý do: Trào lưu thời trang thu đông chuộng phong cách tối giản thanh lịch, nâng tầm cả bộ đồ chỉ với một chiếc áo khoác ngoài.
-Hook video: Đừng phối đồ rườm rà nữa, mùa lạnh này chỉ cần khoác chiếc áo dạ này là khí chất tăng gấp đôi.
+2. Trang phục kẻ ca rô biến tấu: Xu hướng ca rô được làm mới nhờ sự phối màu đa dạng.
+Hook video: Đừng mặc đồ kẻ ca rô kiểu cũ nữa, thử ngay 3 cách phối màu biến tấu cực cuốn này!
 
-3. Đồ kẻ ca rô biến tấu màu sắc
-Lý do: Họa tiết ca rô quay trở lại dẫn đầu phong cách giới trẻ nhờ bảng màu tươi mới dễ mặc.
-Hook video: Họa tiết kẻ ca rô tưởng cũ kỹ mà biết chọn màu này thì mặc lên trông cực kỳ trẻ trung.
+3. Đồ thu đông tối giản: Phong cách thiết kế đơn giản, dễ ứng dụng và tiện lợi.
+Hook video: Tủ đồ thu đông chỉ cần 5 món cơ bản này là đủ đẹp cả tuần!
 
-4. Quần jean nữ ống suông cạp cao
-Lý do: Kiểu dáng giữ vững vị thế xu hướng hàng đầu năm 2026, dễ phối đồ cùng áo len và áo khoác.
-Hook video: Ba cách biến hóa dáng chân thon dài với chiếc quần jean đang dẫn đầu xu hướng năm nay.
+4. Thời trang trẻ em thu đông: Thị trường tiềm năng với nhu cầu sắm đồ ấm cho trẻ tăng cao.
+Hook video: Sắm đồ thu đông cho bé yêu: Chọn kiểu gì vừa ấm vừa thời trang?
 
-5. Váy đầm ôm body tôn dáng
-Lý do: Đồ ôm sát khoe đường cong luôn là nội dung hút chục triệu lượt xem và kích thích tương tác cao.
-Hook video: Chiếc đầm ôm vừa vặn giúp tôn dáng cực đỉnh mà không lo lộ khuyết điểm cho hội chị em.
-
-6. Áo thun áo nỉ họa tiết vui nhộn
-Lý do: Trào lưu thời trang công sở thư giãn giải tỏa căng thẳng đang được giới trẻ hưởng ứng mạnh mẽ.
-Hook video: Chiếc áo sinh ra dành riêng cho những ngày đi làm mà tâm trí chỉ muốn nghỉ ngơi.
+5. Trang phục hoài cổ Too Cool: Xu hướng thiết kế hoài cổ độc lạ đang được Gen Z ưa chuộng.
+Hook video: Phong cách thời trang hoài cổ độc lạ nhưng Gen Z lại mê mẩn: Bạn đã thử chưa?
 
 Xu hướng và sự kiện sắp tới:
-Hôm nay là chính hội Siêu sale 11/11 của Shopee với hàng loạt mã giảm giá và chiến dịch quảng bá bùng nổ. Người mua đang tập trung săn đón hàng thời trang giữ ấm thu đông chính hãng trên sàn. Sau đợt này cần lập tức chuẩn bị nội dung đón mùa mua sắm Black Friday cuối tháng 11 và đợt Siêu sale 12/12.
+Miền Bắc đón không khí lạnh tràn về, nhiệt độ hạ sâu thúc đẩy nhu cầu mua đồ giữ ấm. Thị trường TMĐT sôi động đợt sale 11.11, tạo đà bùng nổ cho các chương trình Black Friday và Midnight Sale sắp tới.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-11.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-12.md
