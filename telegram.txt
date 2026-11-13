@@ -1,21 +1,29 @@
-📊 Báo cáo thời trang hot – 12/11/2026
+📊 Báo cáo thời trang hot – 13/11/2026
 
-1. Áo khoác gile lông vũ: Trang phục giữ ấm nổi bật mùa thu đông, tạo nét thanh lịch cho mọi lứa tuổi.
-Hook video: Trời lạnh rồi, phối áo khoác gile lông vũ thế nào để vừa sang vừa không bị đứng tuổi?
+Top sản phẩm thời trang tiềm năng làm video:
 
-2. Trang phục kẻ ca rô biến tấu: Xu hướng ca rô được làm mới nhờ sự phối màu đa dạng.
-Hook video: Đừng mặc đồ kẻ ca rô kiểu cũ nữa, thử ngay 3 cách phối màu biến tấu cực cuốn này!
+1. Áo khoác gile lông vũ / phao không tay
+Miền Bắc đón đợt không khí lạnh mạnh xuống 13-17 độ C, áo gile phao vừa giữ ấm vừa dễ phối đồ đang là xu hướng Thu Đông nổi bật nhất.
+Hook: Miền Bắc rét 13 độ mà chưa biết mặc gì vừa ấm vừa thời trang? Thử ngay chiếc gile này!
 
-3. Đồ thu đông tối giản: Phong cách thiết kế đơn giản, dễ ứng dụng và tiện lợi.
-Hook video: Tủ đồ thu đông chỉ cần 5 món cơ bản này là đủ đẹp cả tuần!
+2. Set đồ Thu Đông thanh lịch (Phong cách U40 và công sở)
+Xu hướng phối đồ mùa thu sành điệu, sang trọng cho phụ nữ trung niên và dân công sở đang tăng mạnh nhu cầu dịp cuối năm.
+Hook: Bí quyết phối đồ Thu Đông vừa cá tính vừa quyến rũ cho chị em U40!
 
-4. Thời trang trẻ em thu đông: Thị trường tiềm năng với nhu cầu sắm đồ ấm cho trẻ tăng cao.
-Hook video: Sắm đồ thu đông cho bé yêu: Chọn kiểu gì vừa ấm vừa thời trang?
+3. Thời trang trẻ em Thu Đông
+Đợt rét đậm tràn về kéo theo nhu cầu mua quần áo ấm cho bé tăng cao, các doanh nghiệp thời trang nội địa cũng đang đẩy mạnh phân khúc này.
+Hook: Gió lạnh về rồi, sắm ngay set đồ ấm vừa xinh vừa chất lượng này cho bé yêu!
 
-5. Trang phục hoài cổ Too Cool: Xu hướng thiết kế hoài cổ độc lạ đang được Gen Z ưa chuộng.
-Hook video: Phong cách thời trang hoài cổ độc lạ nhưng Gen Z lại mê mẩn: Bạn đã thử chưa?
+4. Trang phục cá tính phong cách Too Cool cho Gen Z
+Trào lưu thời trang phá cách kết hợp cùng không khí Tuần lễ Thời trang Quốc tế Việt Nam giúp các thiết kế độc lạ của giới trẻ cực kỳ bắt mắt.
+Hook: Gen Z thử ngay outfit chuẩn gout cực chất này xem có làm ai trầm trồ không nhé!
+
+5. Đầm nỉ và thời trang nữ chính hãng Shopee Mall
+Xu hướng khách hàng ưu tiên hàng Shopee Mall chính hãng để nhận Voucher Xtra và ưu đãi mua sắm mùa sale lớn.
+Hook: Mẹo săn đầm hàng hiệu Shopee Mall chuẩn đẹp giá giảm nửa kèm Voucher Xtra!
 
 Xu hướng và sự kiện sắp tới:
-Miền Bắc đón không khí lạnh tràn về, nhiệt độ hạ sâu thúc đẩy nhu cầu mua đồ giữ ấm. Thị trường TMĐT sôi động đợt sale 11.11, tạo đà bùng nổ cho các chương trình Black Friday và Midnight Sale sắp tới.
+- Đợt lạnh miền Bắc kéo dài là cơ hội vàng bán đồ nỉ, áo khoác phao, áo len.
+- Người tiêu dùng ưu tiên gian hàng uy tín Shopee Mall và săn voucher giảm giá lớn dịp đại lễ mua sắm 11.11 cũng như các phiên Midnight Sale.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-12.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-13.md
