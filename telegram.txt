@@ -1,28 +1,31 @@
-📊 Báo cáo thời trang hot – 14/11/2026
+📊 Báo cáo thời trang hot – 15/11/2026
 
-Dựa trên xu hướng thời tiết và tin tức thị trường mới nhất:
+1. Áo khoác giữ nhiệt và áo phao ấm
+Lý do: Miền Bắc đón không khí lạnh tăng cường liên tiếp, nhiệt độ tại Hà Nội chạm ngưỡng 17 độ kèm mưa rét khiến nhu cầu giữ ấm tăng vọt.
+Hook video: Trời trở rét 17 độ rồi, bạn đã chuẩn bị chiếc áo phao ấm áp này chưa?
 
-1. Áo khoác gile lông vũ
-Lý do: Miền Bắc đón gió mùa liên tiếp, Hà Nội giảm còn 17 độ C. Áo giữ ấm tốt, tiện lợi và cực kỳ thời trang cho phụ nữ U40.
-Hook video: Miền Bắc xuống 17 độ rồi, chị em U40 diện ngay áo khoác gile lông vũ vừa ấm vừa sang này nhé!
+2. Thời trang trẻ em thiết kế nội địa
+Lý do: Thị trường trang phục trẻ em từ các thương hiệu Việt đang nhận được nhiều sự quan tâm mua sắm từ các bậc phụ huynh trên sàn số.
+Hook video: Mẹ bỉm sắm ngay mẫu đồ đông thương hiệu Việt vừa êm ái vừa bền đẹp này cho bé nhé!
 
-2. Trang phục Thu Đông thanh lịch cho U40
-Lý do: Xu hướng ăn mặc thường ngày vừa cá tính vừa thanh lịch cho chị em trung niên đang được tìm kiếm mạnh.
-Hook video: Phụ nữ trên 40 tuổi mặc gì đi làm đi chơi mùa lạnh? Ghim ngay 3 set đồ thanh lịch tôn dáng này!
+3. Set đồ phong cách hoài cổ Gen Z
+Lý do: Trào lưu diện các trang phục rực rỡ, độc đáo mang âm hưởng hoài niệm đang quay trở lại mạnh mẽ trong giới trẻ.
+Hook video: Nhìn qua tưởng kén người mặc nhưng lên đồ kiểu này đảm bảo nổi bật nhất phố luôn!
 
-3. Quần áo Thu Đông trẻ em
-Lý do: Trời chuyển rét cộng thêm doanh nghiệp Việt đẩy mạnh mảng đồ trẻ em khiến nhu cầu sắm trang phục rét cho bé tăng cao.
-Hook video: Trời trở rét rồi, các mẹ đã ghim mẫu thời trang trẻ em vừa ấm vừa xinh này cho bé chưa?
+4. Trang phục thường ngày thanh lịch cho phụ nữ trung niên
+Lý do: Xu hướng ăn mặc mùa thu đông tôn dáng, trang nhã dành cho lứa tuổi ngoài 40 đang được tìm kiếm nhiệt tình.
+Hook video: Gợi ý cách phối đồ đông thanh lịch giúp phụ nữ ngoài 40 tự tin tôn dáng mỗi ngày.
 
-4. Áo khoác Thu Đông Gen Z
-Lý do: Ảnh hưởng từ Tuần lễ Thời trang Quốc tế Việt Nam Thu Đông 2026 thúc đẩy trào lưu phối đồ mùa đông năng động.
-Hook video: Bắt trend Tuần lễ thời trang thu đông cùng 3 mẫu áo khoác Gen Z phối cực chất!
+5. Đồ bộ mặc nhà ấm cúng và tối giản
+Lý do: Phong cách thời trang hướng tới sự thoải mái, mềm mại và thư giãn ngay tại gia đình đang là xu hướng được đón nhận.
+Hook video: Ở nhà những ngày mưa lạnh thì mặc bộ nỉ êm ái này là chuẩn bài nhất!
 
-5. Trang phục phong cách retro ấn tượng
-Lý do: Giới trẻ đang hồi sinh thẩm mỹ độc lạ, tạo làn sóng ăn mặc cá tính thu hút lượt xem lớn.
-Hook video: Tưởng sến mà lại cực gu! Xem Gen Z biến tấu outfit retro chuẩn thần thái này!
+6. Trang phục thời trang gian hàng chính hãng Shopee Mall
+Lý do: Người tiêu dùng ngày càng ưu tiên chất lượng và uy tín thương hiệu, khiến đồ chính hãng áp đảo doanh số.
+Hook video: Muốn mặc đẹp chuẩn phom mà không lo mua nhầm hàng dỏm thì cứ chọn mẫu Mall này nha!
 
 Xu hướng và sự kiện sắp tới:
-Nhu cầu đồ ấm tăng vọt do đợt rét kéo dài ở miền Bắc. Sản phẩm chính hãng trên các sàn thương mại điện tử tiếp tục chiếm ưu thế. Các thương hiệu đã khởi động chiến dịch sale Black Friday.
+Đợt rét đậm đầu đông miền Bắc tiếp tục thúc đẩy mua sắm đồ len ấm và áo khoác.
+Thị trường chuẩn bị bước vào cao điểm khuyến mãi Black Friday và chuẩn bị cho chiến dịch mua sắm 12/12.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-14.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-15.md
