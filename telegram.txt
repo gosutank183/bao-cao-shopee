@@ -1,27 +1,26 @@
-📊 Báo cáo thời trang hot – 16/11/2026
+📊 Báo cáo thời trang hot – 17/11/2026
 
 1. Áo khoác gió thể thao Thu Đông
-Lý do: Xu hướng cản gió thể thao đang lên ngôi theo các chuyên trang thời trang, kết hợp miền Bắc đón các đợt không khí lạnh liên tiếp khiến nhu cầu giữ ấm tăng vọt.
-Hook: Đừng vội mua áo khoác dày, đây mới là mẫu áo gió thể thao vừa cản gió vừa tôn dáng hot nhất tuần này!
+Lý do: Xu hướng thời trang thể thao ấm áp lên ngôi dịp cuối năm nhờ sự tiện dụng khi gió lạnh về.
+Hook video: Thời tiết trở lạnh đột ngột, đây là chiếc áo khoác gió mặc đi học hay đi làm đều cực kỳ tôn dáng!
 
-2. Quần jean nữ ống suông hot trend
-Lý do: Xu hướng quần jean phom chuẩn năm 2026 đang được tìm kiếm mạnh, dễ phối đồ mùa lạnh và phù hợp làm video biến hình.
-Hook: Bật mí dáng quần jean hack chân cực dài mà bạn nhất định phải thử ngay trong mùa này.
+2. Quần áo thời trang nhí mùa lạnh
+Lý do: Phân khúc thời trang trẻ em đang thu hút lượng quan tâm lớn từ các bậc phụ huynh tìm đồ ấm.
+Hook video: Mẹ bỉm đừng bỏ qua set đồ đông vừa ấm áp vừa đáng yêu này cho bé yêu diện cuối tuần!
 
-3. Set đồ nỉ bông và áo ấm giữ nhiệt
-Lý do: Miền Bắc đón liên tiếp các đợt lạnh mạnh khiến nhiệt độ hạ sâu còn 16 đến 18 độ, tạo ra làn sóng sắm đồ ấm cấp tốc.
-Hook: Trời miền Bắc đã chuyển rét đậm rồi, nhanh tay sắm ngay set nỉ vừa ấm vừa xinh này nhé!
+3. Set đồ thanh lịch thường ngày cho phụ nữ trên 40 tuổi
+Lý do: Xu hướng phối đồ cá tính và quyến rũ cho độ tuổi trung niên đang được tìm kiếm nhiều.
+Hook video: Ai bảo trên bốn mươi tuổi là khó mặc đồ đẹp? Xem ngay cách phối đồ cực sang này nhé!
 
-4. Trang phục thường ngày thanh lịch
-Lý do: Phong cách ăn mặc thường ngày cá tính, nhã nhặn đang là điểm nhấn xu hướng mùa thu, tệp người mua rộng từ giới trẻ tới công sở.
-Hook: Muốn mặc đơn giản mà sang chảnh như sao Hàn thì lưu ngay 3 cách phối đồ mùa thu này lại liền.
+4. Hộp quà thời trang và phụ kiện đếm ngược Giáng sinh
+Lý do: Phong trào mở hộp quà mùa lễ hội đang thu hút lượng xem lớn trên video ngắn.
+Hook video: Mở hộp set quà Giáng sinh đang rầm rộ trên mạng xem bên trong có thực sự xứng đáng để mua không nha!
 
-5. Đồ thiết kế trẻ phong cách phá cách
-Lý do: Cảm hứng từ Tuần lễ Thời trang Quốc tế Việt Nam Thu Đông 2026 thúc đẩy nhu cầu tìm kiếm các mẫu phối đồ layer độc lạ.
-Hook: Bí quyết diện đồ chuẩn sàn diễn thời trang quốc tế ngay trên Shopee với giá cực kỳ hạt dẻ.
+5. Trang phục phong cách tri thức Bookish thanh lịch
+Lý do: Cảm hứng tri thức học đường đang định hình xu hướng thời trang giới trẻ dịp cuối năm.
+Hook video: Bí quyết phối đồ thanh lịch chuẩn phong cách nữ sinh đi cà phê đọc sách cực xinh!
 
 Xu hướng và sự kiện sắp tới:
-Đợt rét diện rộng tại miền Bắc tiếp tục kéo dài, tạo đòn bẩy lớn cho thời trang Thu Đông và đồ giữ nhiệt.
-Thị trường chuẩn bị bước vào chiến dịch siêu giảm giá Black Friday 2026, các kênh affiliate nên tập trung đẩy mạnh link Shopee Mall chính hãng vì người tiêu dùng ngày càng ưu tiên chất lượng và thương hiệu uy tín.
+Đợt xả hàng Black Friday cuối tháng 11 cùng mùa mua sắm chuẩn bị cho dịp Tết đang bắt đầu rục rịch, nhu cầu săn đồ giữ ấm và quà tặng lễ hội tăng cao rõ rệt.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-16.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-17.md
