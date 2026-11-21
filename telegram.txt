@@ -1,35 +1,27 @@
-📊 Báo cáo thời trang hot – 20/11/2026
+📊 Báo cáo thời trang hot – 21/11/2026
 
-1. Áo khoác gió thể thao năng động
-Thời tiết miền Bắc rét sâu kết hợp xu hướng thể thao nổi bật trong mùa thu đông năm nay.
-Hook video: Trời trở rét buốt mà vẫn muốn mặc năng động, phối ngay chiếc áo gió thể thao này vừa ấm vừa chuẩn xu hướng!
+1. Áo khoác gió thể thao Thu-Đông
+Lý do: Miền Bắc liên tiếp đón không khí lạnh rét sâu, kiểu áo gió mang phong cách thể thao năng động đang là xu hướng giữ ấm hot.
+Hook video: Gió mùa tràn về rồi, biến hình cực ngầu với chiếc áo gió siêu nhẹ siêu ấm này nha!
 
-2. Áo gile phao trần bông và lông vũ
-Thiết kế gọn gàng, giữ ấm tốt, là trào lưu cực kỳ được ưa chuộng trong mùa thu đông hiện nay.
-Hook video: Đừng vội mua áo khoác dày cộp, chiếc gile trần bông này mới là chân ái vừa gọn gàng vừa hack tuổi mùa đông này!
+2. Áo khoác gile lông vũ
+Lý do: Thiết kế áo không tay giữ ấm nhẹ nhàng, dễ phối đồ nhiều lớp thanh lịch trong thời tiết giá lạnh.
+Hook video: Muốn mặc ấm mùa đông mà vẫn gọn dáng, xem ngay chiếc gile quốc dân này!
 
-3. Đồ thời trang họa tiết caro
-Phong cách cổ điển kinh điển không bao giờ lỗi mốt, rất thích hợp để làm các nội dung phối đồ thu đông.
-Hook video: Tủ đồ mùa đông chưa có item kẻ caro này thì bạn đang bỏ lỡ phong cách thanh lịch không bao giờ lỗi mốt rồi!
+3. Áo khoác dạ dáng dài kinh điển
+Lý do: Phong cách tối giản sang xịn mịn, dễ mặc không lo lỗi mốt cho chị em trong mùa lạnh.
+Hook video: Mẫu áo khoác cân mọi outfit mùa đông, mặc năm này qua năm khác vẫn chuẩn sang!
 
-4. Áo khoác phom dáng tối giản
-Kiểu dáng cơ bản thanh lịch, thị trường mùa lạnh tại các tỉnh miền Bắc và miền Trung đang bắt đầu ấm lên.
-Hook video: Chỉ cần một mẫu áo khoác cơ bản thế này, phối đồ đi làm hay đi cà phê cuối tuần cũng toát lên vẻ sang chảnh!
+4. Trang phục họa tiết caro
+Lý do: Họa tiết biểu tượng kinh điển đang quay trở lại mạnh mẽ trong giới trẻ thu đông năm nay.
+Hook video: Mẫu họa tiết không bao giờ lỗi mốt giúp nâng tầm outfit đi học đi chơi cực đỉnh!
 
-5. Quần dài suông thanh lịch
-Xu hướng chọn quần dáng suông giúp đôi chân thon dài, ấm áp và tạo nét trẻ trung trong mùa đông.
-Hook video: Mùa đông diện quần gì vừa ấm vừa kéo dài chân? Xem ngay mẫu quần suông chuẩn dáng này nhé!
+5. Trang phục và đồ lễ hội Giáng sinh, Tết
+Lý do: Nhu cầu sắm đồ Giáng sinh và chuẩn bị sắm Tết đang rầm rộ trên nền tảng video ngắn.
+Hook video: Săn đồ Giáng sinh và Tết sớm giá siêu dẻ, diện lên hình bao xinh luôn nha!
 
-6. Thời trang công sở trẻ trung
-Xu hướng thời trang văn phòng thanh lịch, phong cách tươi mới đang nhận được sự quan tâm lớn.
-Hook video: Đi làm văn phòng không còn nhàm chán nếu bạn biết mẹo phối đồ công sở cực trẻ trung này!
+Xu hướng và Sự kiện sắp tới:
+- Xu hướng tập trung đồ giữ ấm thu đông và bán hàng tương tác qua livestream Shopee Live.
+- Chuẩn bị nội dung cho đợt Siêu Sale 12.12 và mùa mua sắm Tết Nguyên Đán sắp tới.
 
-7. Set quà tặng đếm ngược mùa lễ hội
-Trào lưu mở hộp quà đón Giáng sinh đang lan tỏa mạnh mẽ trên các nền tảng video ngắn.
-Hook video: Trào lưu khui hộp quà Giáng sinh đang rầm rộ trên mạng liệu có đáng tiền như lời đồn? Cùng mình bóc hộp nhé!
-
-Xu hướng và sự kiện sắp tới:
-Miền Bắc đón không khí lạnh dồn dập khiến nhiệt độ giảm sâu, nhu cầu mua sắm quần áo ấm tăng mạnh mẽ.
-Các sự kiện thời trang Thu Đông cùng không khí Giáng sinh và chuẩn bị sắm Tết đang thúc đẩy hành vi săn deal trên sàn thương mại điện tử.
-
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-20.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-21.md
