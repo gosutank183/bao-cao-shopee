@@ -1,30 +1,27 @@
-📊 Báo cáo thời trang hot – 22/11/2026
+📊 Báo cáo thời trang hot – 23/11/2026
 
-1. Áo khoác gió thể thao
-Lý do: Miền Bắc đón nhiều đợt rét sâu, mẫu áo gió thể thao năng động chắn gió tốt đang được giới trẻ săn đón theo xu hướng Thu-Đông.
-Gợi ý hook: Gió mùa tràn về dưới 10 độ mà vẫn muốn mặc đẹp thể thao ra phố thì mặc gì?
+1. Áo khoác gile lông vũ
+Mẫu áo không tay hot mùa thu đông nhờ thiết kế gọn gàng, tôn dáng và giữ ấm cực tốt.
+Hook video: Trời rét miền Bắc mà mặc áo gile lông vũ này vừa ấm vừa không lo bị phồng béo nè chị em ơi!
 
-2. Áo khoác không tay lông vũ (gile phao)
-Lý do: Xu hướng thời trang thu đông ưu tiên sự nhẹ nhàng, giữ ấm linh hoạt cho người mặc khi di chuyển nhiều.
-Gợi ý hook: Bí quyết phối đồ với áo phao gile vừa ấm vừa không bị cồng kềnh cho mùa đông này!
+2. Áo khoác mùa đông dáng kinh điển
+Nhu cầu áo khoác giữ ấm bùng nổ khi miền Bắc đón đợt rét sâu dưới 10 độ C.
+Hook video: Bật mí chiếc áo khoác sang xịn đợt lạnh này, mặc lên vừa chảnh vừa chấp hết gió mùa!
 
-3. Áo khoác dạ kinh điển
-Lý do: Thiết kế sang trọng, thanh lịch không bao giờ lỗi mốt, đặc biệt thích hợp với thời tiết lạnh sâu dịp cuối năm.
-Gợi ý hook: Chiếc áo khoác dạ cứu cánh mọi set đồ trong những ngày miền Bắc rét buốt.
+3. Hộp quà đếm ngược Giáng sinh
+Trào lưu đập hộp quà Noel thời trang và phụ kiện đang thu hút tương tác cao trên TikTok.
+Hook video: Cùng mình đập hộp quà Giáng sinh xem có đáng tiền không nhé!
 
-4. Trang phục họa tiết kẻ caro
-Lý do: Họa tiết kinh điển đang quay trở lại làm điểm nhấn cho các dòng váy ngắn, blazer và áo dạ của giới trẻ.
-Gợi ý hook: Đừng bỏ qua họa tiết kẻ caro nếu bạn muốn nâng tầm gu thời trang mùa này!
+4. Trang phục len và đồ giữ ấm thu đông
+Thời tiết chuyển lạnh khiến thị trường đồ len, nỉ mùa đông bán rất chạy.
+Hook video: Top 3 mẫu áo len phối đồ mùa đông vừa ấm vừa xinh cho chị em!
 
-5. Váy đầm dạ tiệc lễ hội
-Lý do: Người tiêu dùng bắt đầu chuẩn bị trang phục lộng lẫy để đón mùa tiệc tùng, sự kiện và liên hoan cuối năm.
-Gợi ý hook: Tìm đâu mẫu váy dạ tiệc sang trọng, chụp ảnh ăn hình mà giá hợp ví trên Shopee?
+5. Set thời trang thể thao thu đông
+Phong cách năng động ngoài trời cho mùa lạnh đang được giới trẻ quan tâm.
+Hook video: Set đồ thể thao thu đông cực thanh lịch cho chị em yêu vận động!
 
-6. Set đồ công sở thanh lịch tối giản
-Lý do: Phong cách ăn mặc tinh tế, kín đáo và nhã nhặn đang tạo thiện cảm lớn và trở thành xu hướng phối đồ đời thường.
-Gợi ý hook: Gợi ý 3 cách phối đồ thanh lịch chuẩn phong cách giảng đường và công sở.
+🔥 Xu hướng & Sự kiện sắp tới:
+- Shopee Live và livestream bán hàng tiếp tục bùng nổ doanh số.
+- Đợt không khí lạnh miền Bắc rét sâu và đợt siêu sale 12.12 sắp tới là cơ hội lớn để đẩy video phối đồ thu đông và hướng dẫn săn mã.
 
-Xu hướng nổi bật: Kênh Shopee Live và video tương tác tiếp tục bùng nổ mạnh mẽ, người mua dần chuyển hướng ưu tiên đồ chất lượng bền đẹp thay vì sản phẩm giá rẻ kém uy tín.
-Sự kiện sắp tới: Mùa mua sắm cao điểm đón đầu Black Friday 2026, chiến dịch siêu sale 12.12 và đợt gom hàng thời trang phục vụ dịp Tết.
-
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-22.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-23.md
