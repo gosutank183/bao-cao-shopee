@@ -1,28 +1,28 @@
-📊 Báo cáo thời trang hot – 25/11/2026
+📊 Báo cáo thời trang hot – 26/11/2026
 
-1. Áo khoác thu đông kinh điển
-Lý do: Miền Bắc đón không khí lạnh dồn dập rét sâu dưới 10 độ C khiến nhu cầu sắm áo khoác tăng vọt.
-Hook: Miền Bắc chuẩn bị xuống dưới 10 độ rồi, chị em đã sắm chiếc áo khoác kinh điển vừa ấm vừa sang này chưa?
+Top gợi ý sản phẩm thời trang đáng làm video (dựa trên xu hướng):
 
-2. Áo len và trang phục giữ nhiệt
-Lý do: Thời tiết rét kéo dài thúc đẩy thị trường trang phục mùa đông tại miền Bắc nhộn nhịp mua sắm.
-Hook: Gió mùa tràn về rét đậm, đây là 3 mẫu áo len thu đông cân mọi outfit xuống phố cho chị em!
+1. Áo dạ dáng dài mùa đông
+Lý do: Miền Bắc đón không khí lạnh tăng cường rét sâu xuống 14 độ C, áo dạ dài là lựa chọn giữ ấm thanh lịch.
+Hook: Miền Bắc xuống 14 độ C rồi, mặc áo dạ dài làm sao cho chuẩn thanh lịch như fashionista?
 
-3. Trang phục phong cách học đường
-Lý do: Xu hướng thiết kế lấy cảm hứng từ trường học đang là điểm nhấn thời trang được giới trẻ ưa chuộng.
-Hook: Biến hình chuẩn phong cách học sinh sinh viên cực xinh cho những ngày đông hửng nắng!
+2. Áo khoác giữ ấm kinh điển
+Lý do: Thị trường thời trang mùa đông ấm lên nhanh chóng khi thời tiết miền Bắc và Trung Bộ chuyển lạnh.
+Hook: Mẫu áo khoác kinh điển cân mọi outfit mùa lạnh mà tủ đồ nào cũng nên có!
 
-4. Thời trang xanh và thiết kế Việt
-Lý do: Giới trẻ ngày càng ưu tiên các sản phẩm thời trang bền vững và thương hiệu thiết kế trong nước.
-Hook: Bắt trend thời trang xanh với cách phối đồ vừa tinh tế vừa thời thượng cho mùa lạnh!
+3. Trang phục Thu Đông đương đại
+Lý do: Xu hướng thời trang Thu Đông 2026 lan tỏa cảm hứng kết hợp văn hóa và hiện đại.
+Hook: Phối đồ Thu Đông chuẩn gu thời trang Việt đương đại cực sang cho chị em!
 
-5. Outfit săn sale Black Friday
-Lý do: Các shop và sàn thương mại điện tử ráo riết kích cầu mua sắm cuối năm dịp Black Friday.
-Hook: Top set đồ thời trang hot hit nhất định phải chốt đơn dịp Black Friday này!
+4. Thời trang thiết kế Việt mùa sale Black Friday
+Lý do: Đón đầu làn sóng mua sắm Black Friday và mua sắm sắm sửa dịp cuối năm.
+Hook: Săn deal Black Friday đồ thời trang thiết kế Việt chất lượng không kém hàng ngoại!
+
+5. Thời trang tối giản và chất liệu sống xanh
+Lý do: Giới trẻ ngày càng coi trọng tiêu dùng bền vững và phong cách sống xanh.
+Hook: Mặc đẹp mà vẫn sống xanh: 3 outfit tối giản dùng hoài không lỗi mốt!
 
 Xu hướng và sự kiện sắp tới:
-- Rét đậm miền Bắc tiếp tục thúc đẩy doanh số đồ thu đông và áo ấm.
-- Video ngắn và livestream bán hàng trên Shopee là kênh chốt đơn bứt phá.
-- Sẵn sàng kịch bản video cho ngày hội sale Black Friday và chiến dịch 12.12 cận kề.
+Không khí lạnh tiếp tục tăng cường rét sâu, mua sắm qua Shopee Live và video ngắn duy trì đà tăng trưởng mạnh dồn cho mùa sale Black Friday cùng đợt sale mua sắm cuối năm 12/12.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-25.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-26.md
