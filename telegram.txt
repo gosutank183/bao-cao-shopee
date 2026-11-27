@@ -1,28 +1,23 @@
-📊 Báo cáo thời trang hot – 26/11/2026
+📊 Báo cáo thời trang hot – 27/11/2026
 
-Top gợi ý sản phẩm thời trang đáng làm video (dựa trên xu hướng):
+1. Áo dài cách tân và áo dài Tết
+Nhu cầu sắm áo dài trực tuyến bắt đầu tăng mạnh dù còn khá sớm trước Tết.
+Hook video: Mới tháng 11 mà chị em đã rủ nhau săn áo dài Tết rồi, xem ngay mẫu tôn dáng này kẻo cháy hàng!
 
-1. Áo dạ dáng dài mùa đông
-Lý do: Miền Bắc đón không khí lạnh tăng cường rét sâu xuống 14 độ C, áo dạ dài là lựa chọn giữ ấm thanh lịch.
-Hook: Miền Bắc xuống 14 độ C rồi, mặc áo dạ dài làm sao cho chuẩn thanh lịch như fashionista?
+2. Áo dạ dáng dài nữ
+Miền Bắc vào đợt rét sâu dưới 10-14 độ C khiến nhu cầu áo dạ dài tăng vọt.
+Hook video: Miền Bắc rét dưới 10 độ rồi, phối áo dạ dài thế nào để vừa ấm vừa sang như gái Hàn?
 
-2. Áo khoác giữ ấm kinh điển
-Lý do: Thị trường thời trang mùa đông ấm lên nhanh chóng khi thời tiết miền Bắc và Trung Bộ chuyển lạnh.
-Hook: Mẫu áo khoác kinh điển cân mọi outfit mùa lạnh mà tủ đồ nào cũng nên có!
+3. Áo khoác gió và áo giữ nhiệt kinh điển
+Thời tiết trở lạnh sâu khiến các mẫu áo khoác giữ nhiệt đa năng bùng nổ sức hút.
+Hook video: Đợt rét đậm này mà không có chiếc áo khoác thần thánh này thì ra đường chịu sao nổi!
 
-3. Trang phục Thu Đông đương đại
-Lý do: Xu hướng thời trang Thu Đông 2026 lan tỏa cảm hứng kết hợp văn hóa và hiện đại.
-Hook: Phối đồ Thu Đông chuẩn gu thời trang Việt đương đại cực sang cho chị em!
-
-4. Thời trang thiết kế Việt mùa sale Black Friday
-Lý do: Đón đầu làn sóng mua sắm Black Friday và mua sắm sắm sửa dịp cuối năm.
-Hook: Săn deal Black Friday đồ thời trang thiết kế Việt chất lượng không kém hàng ngoại!
-
-5. Thời trang tối giản và chất liệu sống xanh
-Lý do: Giới trẻ ngày càng coi trọng tiêu dùng bền vững và phong cách sống xanh.
-Hook: Mặc đẹp mà vẫn sống xanh: 3 outfit tối giản dùng hoài không lỗi mốt!
+4. Trang phục thu đông chất lượng cao
+Người tiêu dùng dịch chuyển sang ưu tiên sản phẩm bền đẹp thay vì chạy theo hàng giá rẻ kém chất lượng.
+Hook video: Đừng ham rẻ mua đồ mặc một lần rồi bỏ, đây là 3 item thu đông chất đẹp chấp mọi thời tiết!
 
 Xu hướng và sự kiện sắp tới:
-Không khí lạnh tiếp tục tăng cường rét sâu, mua sắm qua Shopee Live và video ngắn duy trì đà tăng trưởng mạnh dồn cho mùa sale Black Friday cùng đợt sale mua sắm cuối năm 12/12.
+Video ngắn và livestream trên Shopee tiếp tục là kênh chốt đơn hiệu quả nhất mùa sale.
+Miền Bắc rét đậm kéo dài và chiến dịch Mega Sale 12.12 sắp tới là cơ hội lớn để bùng nổ doanh số thời trang thu đông và đồ Tết.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-26.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-27.md
