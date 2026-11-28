@@ -1,23 +1,26 @@
-📊 Báo cáo thời trang hot – 27/11/2026
+📊 Báo cáo thời trang hot – 28/11/2026
 
-1. Áo dài cách tân và áo dài Tết
-Nhu cầu sắm áo dài trực tuyến bắt đầu tăng mạnh dù còn khá sớm trước Tết.
-Hook video: Mới tháng 11 mà chị em đã rủ nhau săn áo dài Tết rồi, xem ngay mẫu tôn dáng này kẻo cháy hàng!
+1. Áo dài truyền thống và cách tân mùa Tết
+Báo chí ghi nhận mặt hàng áo dài đang bán rất chạy khi mùa mua sắm Tết bắt đầu nóng lên trên các sàn thương mại điện tử.
+Hook: Muốn chụp bộ ảnh Tết nghìn like mà chưa biết chọn dáng áo dài nào tôn dáng, xem ngay 3 gợi ý này!
 
-2. Áo dạ dáng dài nữ
-Miền Bắc vào đợt rét sâu dưới 10-14 độ C khiến nhu cầu áo dạ dài tăng vọt.
-Hook video: Miền Bắc rét dưới 10 độ rồi, phối áo dạ dài thế nào để vừa ấm vừa sang như gái Hàn?
+2. Áo khoác dạ dáng dài mùa đông
+Được các chuyên trang thời trang lăng xê mạnh mẽ kết hợp thời tiết chuyển lạnh, mang đến phong cách sang chảnh ấm áp.
+Hook: Miền Bắc trở rét rồi, mặc áo dạ dáng dài sao cho sang mà không bị dìm chiều cao?
 
-3. Áo khoác gió và áo giữ nhiệt kinh điển
-Thời tiết trở lạnh sâu khiến các mẫu áo khoác giữ nhiệt đa năng bùng nổ sức hút.
-Hook video: Đợt rét đậm này mà không có chiếc áo khoác thần thánh này thì ra đường chịu sao nổi!
+3. Trang phục giữ ấm mùa rét sâu (áo phao, đồ len giữ nhiệt)
+Không khí lạnh mạnh liên tục tăng cường khiến nền nhiệt miền Bắc hạ sâu dưới 10 đến 15 độ C, nhu cầu giữ ấm là thiết yếu theo xu hướng thời tiết.
+Hook: Dự báo nhiệt độ hạ sâu dưới 15 độ, đây là set đồ giữ nhiệt vừa ấm vừa nhẹ ai cũng nên sắm!
 
-4. Trang phục thu đông chất lượng cao
-Người tiêu dùng dịch chuyển sang ưu tiên sản phẩm bền đẹp thay vì chạy theo hàng giá rẻ kém chất lượng.
-Hook video: Đừng ham rẻ mua đồ mặc một lần rồi bỏ, đây là 3 item thu đông chất đẹp chấp mọi thời tiết!
+4. Đồ thiết kế từ thương hiệu nội địa (Local Brand)
+Các thương hiệu thời trang Việt đẩy mạnh mẫu mã thu đông và chiến lược kinh doanh linh hoạt dịp lễ hội cuối năm trên sàn số.
+Hook: Ủng hộ đồ thiết kế Việt: 3 mẫu váy áo dự tiệc cuối năm trên Shopee vừa sang vừa tôn dáng!
+
+5. Thời trang phong cách bền vững và đồ Vintage
+Giới trẻ chuyển hướng chuộng phong cách cổ điển, đồ bền đẹp thay vì chạy theo quần áo siêu rẻ nhưng chất lượng kém.
+Hook: Thay vì mua đồ mặc một lần rồi bỏ, thử ngay cách phối đồ phong cách vintage cực chất này!
 
 Xu hướng và sự kiện sắp tới:
-Video ngắn và livestream trên Shopee tiếp tục là kênh chốt đơn hiệu quả nhất mùa sale.
-Miền Bắc rét đậm kéo dài và chiến dịch Mega Sale 12.12 sắp tới là cơ hội lớn để bùng nổ doanh số thời trang thu đông và đồ Tết.
+Các nhãn hàng đẩy mạnh mô hình mua sắm kết hợp giải trí, tăng cường livestream và video ngắn đón đầu mùa mua sắm Tết cùng siêu sale 12/12. Thời tiết miền Bắc tiếp tục rét đậm mở ra cơ hội lớn cho các dòng sản phẩm thời trang giữ nhiệt mùa đông.
 
-Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-27.md
+Báo cáo đầy đủ: https://github.com/gosutank183/bao-cao-shopee/blob/main/bao-cao/2026-11-28.md
